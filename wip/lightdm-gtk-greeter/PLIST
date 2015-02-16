@@ -1,0 +1,5 @@
+@comment $NetBSD$
+sbin/lightdm-gtk-greeter
+share/examples/lightdm/lightdm-gtk-greeter.conf
+share/lightdm-gtk-greeter/greeter.ui
+share/xgreeters/lightdm-gtk-greeter.desktop

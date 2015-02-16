@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.3 2014/09/05 20:23:06 kim Exp $
+
+SHA1 (Net-INET6Glue-0.602.tar.gz) = 5c3bd152d05cea9c3db551174bd9819e8336c1a3
+RMD160 (Net-INET6Glue-0.602.tar.gz) = 74d828ec12422ee813fcff3c4cb630d5e4645484
+Size (Net-INET6Glue-0.602.tar.gz) = 5078 bytes
+SHA1 (patch-aa) = b177363b50789fd41b8e91aef168f711f62062fb

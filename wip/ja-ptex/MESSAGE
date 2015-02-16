@@ -1,0 +1,15 @@
+===========================================================================
+$NetBSD$
+ja-ptex installed.
+
+To preview with ghostscript, you may need two more packages to be installed,
+   fonts/ghostscript-cidfonts-ryumin
+   print/ghostscript
+
+The commands to process documents:
+platex   *.tex -> *.dvi
+mendex	 *.idx -> *.ind  (makeindex equivalent for Japanese)
+dvipdfmx *.dvi -> *.pdf
+pdvips   *.dvi -> *.ps
+xpdf	 preview *.pdf
+===========================================================================

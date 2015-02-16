@@ -1,0 +1,20 @@
+/patch-aa/1.5/Tue Dec  6 13:14:06 2005//
+/patch-libAfterImage_export.c/1.1/Tue Apr  5 12:02:00 2011//
+/patch-src_ASDocGen_Makefile.in/1.1/Wed May 25 13:17:37 2011//
+/patch-libAfterStep_functions.c/1.1/Fri May  4 16:36:10 2012//
+/patch-libAfterStep_functions.h/1.1/Fri May  4 16:36:10 2012//
+/patch-libAfterStep_mylook.c/1.1/Fri May  4 16:36:11 2012//
+/patch-libAfterStep_mylook.h/1.1/Fri May  4 16:36:11 2012//
+/patch-src_afterstep_asinternals.h/1.1/Fri May  4 16:36:11 2012//
+/patch-src_afterstep_misc.c/1.1/Fri May  4 16:36:11 2012//
+/patch-afterstep_desktop_desklets_desklet.display/1.1/Sun Apr  7 10:36:54 2013//
+/patch-configure/1.1/Sun Apr  7 10:36:54 2013//
+/patch-libAfterBase_ashash.c/1.2/Mon Apr  8 01:05:10 2013//
+/patch-libAfterBase_asvector.c/1.2/Mon Apr  8 01:05:10 2013//
+/patch-libAfterBase_asvector.h/1.2/Mon Apr  8 01:05:10 2013//
+/patch-libAfterImage_asfont.c/1.2/Mon Apr  8 01:05:10 2013//
+/patch-libAfterImage_import.c/1.2/Mon Apr  8 01:05:10 2013//
+/patch-libAfterBase_parse.c/1.1/Wed Jun 26 21:17:45 2013//
+/patch-libAfterBase_parse.h/1.1/Wed Jun 26 21:17:45 2013//
+/patch-src_Animate_Makefile.in/1.1/Wed Jun 26 21:17:45 2013//
+D

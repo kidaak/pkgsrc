@@ -1,0 +1,19 @@
+# $NetBSD$
+#
+
+DISTNAME=	Behaviour-0.1a4
+PKGNAME=	${PYPKGPREFIX}-behaviour-0.1
+PKGREVISION=	1
+CATEGORIES=	devel python
+MASTER_SITES=	http://pypi.python.org/packages/source/B/Behaviour/
+
+MAINTAINER=	kamel.derouiche@gmail.com
+HOMEPAGE=	http://pypi.python.org/pypi/Behaviour/
+COMMENT=	Behaviour Driven Development in Python
+LICENSE=	gnu-lgpl-v2.1
+
+USE_LANGUAGES=	# none
+PLIST_SUBST+=	PYVERSSUFFIX=${PYVERSSUFFIX:Q}
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"

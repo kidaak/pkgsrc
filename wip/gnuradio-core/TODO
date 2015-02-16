@@ -1,0 +1,134 @@
+- gnuradio-companion needs to be invoked with root privilege
+  if you add several input devices, say, to activate following parts 
+         Sources -> RTL-SDR Source
+                    osmoscom Source
+  etc. One way to to this is (as my example)
+  X11 -> xterm -> sudo -s 
+      -> export XAUTHORITY=/home/my_login/.Xauthority
+      -> gnuradio-companion
+  (Thanks rkujawa@ for this)
+  
+- OPTIONS.gnuradio= ninja doesn't package with error:
+  # Adding ninja to following line (now) stops
+  # [164/850] cd /PATH/wip/gnuradio-core/work/gnuradio-3.7.5/build/gr-audio/swig && ""
+  # FAILED: cd /PATH/wip/gnuradio-core/work/gnuradio-3.7.5/build/gr-audio/swig && ""
+  # : permission denied
+  (updating cmake 3.0.2 in wip doesn't help)
+
+- Unknown message at pbulk
+   [210/231] Starting build of  gnuradio-fec-3.7.5
+   X11 connection rejected because of wrong authentication.
+
+   at the time around these configure lines ?
+   | -- Found ALSA 1.0.27.2
+   | -- checking for module 'jack'
+   | --   found jack, version 0.121.3
+   | -- Found jack: /WRKOBJDIR/wip/gnuradio-fec/work/.buildlink/lib/libjack.so
+   | -- Looking for C++ include AudioUnit/AudioUnit.h
+   | -- Looking for C++ include AudioUnit/AudioUnit.h - not found
+   | -- Looking for C++ include AudioToolbox/AudioToolbox.h
+   | -- Looking for C++ include AudioToolbox/AudioToolbox.h - not found
+   | -- checking for module 'portaudio-2.0'
+   | --   found portaudio-2.0, version 19
+   | -- Performing Test PORTAUDIO2_FOUND
+   | -- Performing Test PORTAUDIO2_FOUND - Success
+   | -- Found PORTAUDIO: /usr/pkg/include/portaudio2  
+   | -- checking for module 'comedilib'
+   | --   package 'comedilib' not found
+   | -- 
+   | -- Configuring gr-comedi support...
+
+-  (May be) redundent lines in cmake options in Makefile
+    -DCMAKE_INCLUDE_PATH="${PREFIX}/include/portaudio2 \
+    -DCMAKE_LIBRARY_PATH=${PREFIX}/lib/portaudio2 \
+    -DCMAKE_INCLUDE_DIR="${PREFIX}/include/libusb-1.0 \
+ 
+      pkg-config --cflags portaudio-2.0
+      pkg-config --libs   portaudio-2.0
+      pkg-config --cflags libusb-1.0
+   may return (correct) values but not utilized now
+
+-  patches/patch-gnuradio_runtime_include_gnuradio_high__res__timer__h
+    is a joke, should be corrected
+
+- FreeBSD ports has many patches for 3.7.2.1
+  http://svnweb.freebsd.org/ports/head/comms/gnuradio/files/
+
+- Sub function status
+  Marked . are included in minumum one (-core)
+
+.ENABLE_GR_ANALOG
++ENABLE_GR_ATSC
+.ENABLE_GR_AUDIO
+.ENABLE_GR_BLOCKS
++ENABLE_GR_CHANNELS
+ ENABLE_GR_COMEDI
+-ENABLE_GR_CTRLPORT .. wants rpcmanager::get()
++ENABLE_GR_DIGITAL
++ENABLE_GR_FCD
++ENABLE_GR_FEC
+.ENABLE_GR_FFT
+.ENABLE_GR_FILTER
+ ENABLE_GR_LOG
++ENABLE_GR_NOAA
++ENABLE_GR_PAGER
++ENABLE_GR_QTGUI
++ENABLE_GR_TRELLIS
++ENABLE_GR_UHD
++ENABLE_GR_UTILS
++ENABLE_GR_VIDEO_SDL
++ENABLE_GR_VOCODER
++ENABLE_GR_WAVELET
++ENABLE_GR_WXGUI
+
+ ENABLE_BAD_BOOST
+:ENABLE_DEFAULT
++ENABLE_DOXYGEN
+.ENABLE_GNURADIO_RUNTIME
+ ENABLE_PERFORMANCE_COUNTERS
++ENABLE_PYTHON
++ENABLE_RUNTIME
++ENABLE_SPHINX
+ ENABLE_TESTING
+.ENABLE_VOLK
+
+(if ENABLE_DEFAULT=True with current other environment)
+--   * python-support
+--   * testing-support
+--   * volk
+--   * doxygen
+--   * sphinx
+--   * gnuradio-runtime
+--   * gr-ctrlport
+--   * gr-blocks
+--   * gnuradio-companion
+--   * gr-fec
+--   * gr-fft
+--   * gr-filter
+--   * gr-analog
+--   * gr-digital
+--   * gr-dtv
+--   * gr-atsc
+--   * gr-audio
+--   * * alsa
+--   * * oss
+--   * * jack
+--   * * portaudio
+--   * gr-channels
+--   * gr-noaa
+--   * gr-pager
+--   * gr-qtgui
+--   * gr-trellis
+--   * gr-uhd
+--   * gr-utils
+--   * gr-video-sdl
+--   * gr-vocoder
+--   * gr-fcd
+--   * gr-wavelet
+--   * gr-wxgui
+--   * gr-zeromq
+-- 
+-- ######################################################
+-- # Gnuradio disabled components                        
+-- ######################################################
+--   * gr-comedi

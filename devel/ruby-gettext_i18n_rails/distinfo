@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.13 2015/02/01 14:31:47 taca Exp $
+
+SHA1 (gettext_i18n_rails-1.2.0.gem) = e1d80abde26ee47f37be844c34f7fd150d1a6973
+RMD160 (gettext_i18n_rails-1.2.0.gem) = 627e5e77276dab6d4db93ffda72012dce226eca4
+Size (gettext_i18n_rails-1.2.0.gem) = 12800 bytes

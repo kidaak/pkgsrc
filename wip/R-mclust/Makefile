@@ -1,0 +1,21 @@
+# $NetBSD$
+
+CATEGORIES=	math
+MASTER_SITES=	${MASTER_SITE_R_CRAN:=contrib/}
+
+MAINTAINER=	mishka@NetBSD.org
+HOMEPAGE=	http://www.stat.washington.edu/mclust/
+COMMENT=	Model-based clustering and normal mixture modeling
+LICENSE=	gnu-gpl-v2 OR gnu-gpl-v3
+
+R_PKGNAME=	mclust
+R_PKGVER=	4.0
+
+USE_LANGUAGES=	c fortran
+
+BUILDLINK_API_DEPENDS.R+=	R>=2.13.0
+
+.include "../../math/R/Makefile.extension"
+.include "../../devel/gettext-lib/buildlink3.mk"
+.include "../../math/blas/buildlink3.mk"
+.include "../../mk/bsd.pkg.mk"

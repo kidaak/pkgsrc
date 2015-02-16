@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (liblo-0.26.tar.gz) = 21942c8f19e9829b5842cb85352f98c49dfbc823
+RMD160 (liblo-0.26.tar.gz) = 380025d0d79280b13929da82db2e0908a3f4be39
+Size (liblo-0.26.tar.gz) = 519750 bytes
+SHA1 (patch-aa) = 108817632563e01175414126635ff1ba374d4d8a
+SHA1 (patch-ab) = e4ec47f6c8d545f3ef41d90224318476c2bfb5d2
+SHA1 (patch-ac) = 1fa0664cc4f251ee6c3ef515d7bc5473ff6483f3

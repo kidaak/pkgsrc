@@ -1,0 +1,19 @@
+# $NetBSD$
+
+DISTNAME=	plex-2.0.0dev
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME:S/dev//}
+EGG_NAME=	${DISTNAME:S/dev/.dev0/}
+CATEGORIES=	devel
+MASTER_SITES=	http://pypi.python.org/packages/source/p/plex/
+
+MAINTAINER=	kamelderouiche@yahoo.com
+HOMEPAGE=	http://code.google.com/p/python-plex/
+COMMENT=	Plex is a library building lexical analysers
+LICENSE=	gnu-lgpl-v2
+
+USE_LANGUAGES=	# none
+
+PYTHON_VERSIONS_INCOMPATIBLE=	33 34 # not yet ported as of 2.0.0dev
+
+.include "../../lang/python/egg.mk"
+.include "../../mk/bsd.pkg.mk"

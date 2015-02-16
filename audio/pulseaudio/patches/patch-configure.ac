@@ -1,0 +1,129 @@
+$NetBSD: patch-configure.ac,v 1.4 2015/01/27 04:04:50 dbj Exp $
+
+* Don't assume sys/capability.h is guaranteed present on Linux.
+* Fix NetBSD detection for libatomics_ops check.
+* Fix unportable test(1) construct.
+* Adapt /var-paths for pkgsrc defaults.
+* Install default config files in example directory; pkgsrc config
+  file framework will install them in the right place.
+* Avoid hardcoded SDK paths on Darwin.
+
+--- configure.ac.orig	2014-02-15 08:33:32.000000000 +0000
++++ configure.ac
+@@ -130,7 +130,6 @@ AC_MSG_CHECKING([host operating system])
+ case "$host_os" in
+     linux*)
+         AC_MSG_RESULT([linux])
+-        host_has_caps=1
+         os_is_linux=1
+     ;;
+     freebsd*)
+@@ -251,6 +250,11 @@ else
+     # HW specific atomic ops stuff
+     AC_MSG_CHECKING([architecture for native atomic operations])
+     case $host in
++	*-netbsd*)
++	    { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
++$as_echo "yes" >&6; }
++	    need_libatomic_ops=no
++	;;
+         arm*)
+             AC_MSG_RESULT([arm])
+             AC_MSG_CHECKING([whether we can use Linux kernel helpers])
+@@ -286,10 +290,6 @@ else
+                 ])
+             fi
+         ;;
+-        *-netbsdelf5*)
+-            AC_MSG_RESULT([yes])
+-            need_libatomic_ops=no
+-        ;;
+         *-freebsd*)
+             AC_MSG_RESULT([yes])
+             need_libatomic_ops=no
+@@ -478,14 +478,14 @@ AS_IF([test "$pulseaudio_cv__Bool" = "ye
+ #### Thread support ####
+ 
+ AX_TLS
+-AS_IF([test "$ac_cv_tls" == "__thread"],
++AS_IF([test "$ac_cv_tls" = "__thread"],
+     AC_DEFINE([SUPPORT_TLS___THREAD], 1, [Define this if the compiler supports __thread for Thread-Local Storage]))
+ 
+ # Win32 build breaks with win32 pthread installed
+ AS_IF([test "x$os_is_win32" != "x1"],
+   [AX_PTHREAD])
+ 
+-AS_IF([test "x$ax_pthread_ok" == "xyes"],
++AS_IF([test "x$ax_pthread_ok" = "xyes"],
+     AC_DEFINE([_POSIX_PTHREAD_SEMANTICS], 1, [Needed on Solaris]))
+ 
+ 
+@@ -512,15 +512,9 @@ AC_SEARCH_LIBS([backtrace], [execinfo ub
+ if test "x$os_is_darwin" = "x1" ; then
+     AC_MSG_CHECKING([looking for Apple CoreService Framework])
+     # How do I check a framework "library" - AC_CHECK_LIB prob. won't work??, just assign LIBS & hope
+-    AC_CHECK_HEADER([/Developer/Headers/FlatCarbon/CoreServices.h],
++    AC_CHECK_HEADER([CoreServices/CoreServices.h],
+         [LIBS="$LIBS -framework CoreServices"],
+-        [AC_CHECK_HEADERS([/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h],
+-            [LIBS="$LIBS -framework CoreServices"],
+-            [AC_MSG_ERROR([CoreServices.h header file not found])]
+-        )]
+-    )
+-
+-    AC_MSG_RESULT([ok])
++        [AC_MSG_ERROR([CoreServices.h header file not found])])
+     AC_DEFINE([HAVE_CLOCK_GETTIME], 1, [Using clock_gettime() replacement])
+     HAVE_BONJOUR=1
+ fi
+@@ -988,7 +982,7 @@ AS_IF([test "x$HAVE_DBUS" = "x1"], AC_DE
+ 
+ PA_MACHINE_ID="${sysconfdir}/machine-id"
+ AX_DEFINE_DIR(PA_MACHINE_ID, PA_MACHINE_ID, [D-Bus machine-id file])
+-PA_MACHINE_ID_FALLBACK="${localstatedir}/lib/dbus/machine-id"
++PA_MACHINE_ID_FALLBACK="${localstatedir}/db/dbus/machine-id"
+ AX_DEFINE_DIR(PA_MACHINE_ID_FALLBACK, PA_MACHINE_ID_FALLBACK,
+ 	      [Fallback machine-id file])
+ 
+@@ -1234,9 +1228,9 @@ fi
+ 
+ PA_SYSTEM_RUNTIME_PATH="${localstatedir}/run/pulse"
+ AX_DEFINE_DIR(PA_SYSTEM_RUNTIME_PATH, PA_SYSTEM_RUNTIME_PATH, [System runtime dir])
+-PA_SYSTEM_CONFIG_PATH="${localstatedir}/lib/pulse"
++PA_SYSTEM_CONFIG_PATH="${localstatedir}/db/pulse"
+ AX_DEFINE_DIR(PA_SYSTEM_CONFIG_PATH, PA_SYSTEM_CONFIG_PATH, [System config dir])
+-PA_SYSTEM_STATE_PATH="${localstatedir}/lib/pulse"
++PA_SYSTEM_STATE_PATH="${localstatedir}/db/pulse"
+ AX_DEFINE_DIR(PA_SYSTEM_STATE_PATH, PA_SYSTEM_STATE_PATH, [System state dir])
+ 
+ PA_BINARY=${bindir}/pulseaudio${EXEEXT}
+@@ -1248,8 +1242,9 @@ AX_DEFINE_DIR(PACTL_BINARY, PACTL_BINARY
+ AC_SUBST(PA_SOEXT, [.so])
+ AC_DEFINE(PA_SOEXT, [".so"], [Shared object extension])
+ 
+-AC_SUBST(pulseconfdir, ["${sysconfdir}/pulse"])
+-AX_DEFINE_DIR(PA_DEFAULT_CONFIG_DIR, pulseconfdir, [Location of configuration files])
++AC_SUBST(pulseconfdirreal, ["${sysconfdir}/pulse"])
++AC_SUBST(pulseconfdir, ["${EGDIR}"])
++AX_DEFINE_DIR(PA_DEFAULT_CONFIG_DIR, pulseconfdirreal, [Location of configuration files])
+ 
+ #### Mac OSX specific stuff #####
+ 
+@@ -1265,17 +1260,6 @@ AC_ARG_WITH(mac-sysroot,
+     AS_HELP_STRING([--with-mac-sysroot=<path>], [SDK basedir to use as the logical root directory for headers and libraries.]),
+     mac_sysroot=$withval, mac_sysroot="/Developer/SDKs/MacOSX10.5.sdk")
+ 
+-if test "x$os_is_darwin" = "x1" ; then
+-    LDFLAGS="$LDFLAGS -isysroot $mac_sysroot -mmacosx-version-min=$mac_version_min"
+-    CFLAGS="$CFLAGS -isysroot $mac_sysroot -mmacosx-version-min=$mac_version_min"
+-
+-    if test "x$enable_mac_universal" = "xyes" ; then
+-        mac_arches="-arch i386 -arch x86_64"
+-        LDFLAGS="$LDFLAGS $mac_arches"
+-        CFLAGS="$CFLAGS $mac_arches"
+-    fi
+-fi
+-
+ AC_ARG_ENABLE([webrtc-aec],
+     AS_HELP_STRING([--enable-webrtc-aec], [Enable the optional WebRTC-based echo canceller]))
+ 

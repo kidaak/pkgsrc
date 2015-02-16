@@ -1,0 +1,26 @@
+/patch-ac/1.3/Tue Feb  5 01:02:25 2013//
+/patch-libf95.a-0.92_io_atof.c/1.2/Tue Feb  5 01:02:25 2013//
+/patch-libf95.a-0.93_intrinsics_dot__product10.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_intrinsics_matmul10.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_intrinsics_random.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_io_read.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_math_ff.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_math_x87.S/1.1/Sat Mar  2 18:05:46 2013//
+/patch-libf95.a-0.93_quad_power16.c/1.1/Sat Mar  2 18:05:46 2013//
+/patch-gcc_config_dragonfly-spec.h/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_config_dragonfly.h/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_config_i386_dragonfly.h/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_config_i386_dragonfly64.h/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_config_t-dragonfly/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_config_t-dragonfly-thread/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_ginclude_stddef.h/1.1/Mon May 20 05:47:34 2013//
+/patch-gcc_toplev.h/1.1/Mon May 20 05:47:34 2013//
+/patch-ab/1.8/Sat Sep 21 01:05:29 2013//
+/patch-g95spec.c/1.1/Fri Sep 20 23:06:07 2013//
+/patch-gcc_Makefile.in/1.1/Fri Sep 20 23:06:07 2013//
+/patch-libf95.a-0.93_Makefile.am/1.1/Fri Sep 20 23:06:07 2013//
+/patch-gcc_config_freebsd-spec.h/1.1/Mon Sep 23 17:56:32 2013//
+/patch-libf95.a-0.93_runtime_main.c/1.3/Tue Feb 18 01:09:12 2014//
+/patch-libf95.a-0.93_configure.in/1.1/Wed Feb 19 18:27:43 2014//
+/patch-gcc_config.gcc/1.2/Fri Apr 18 03:39:36 2014//
+D

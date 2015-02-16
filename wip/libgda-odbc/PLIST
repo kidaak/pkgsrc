@@ -1,0 +1,4 @@
+@comment $NetBSD$
+lib/libgda-3.0/providers/libgda-odbc.la
+lib/pkgconfig/libgda-odbc-3.0.pc
+share/libgda-3.0/odbc_specs_dsn.xml

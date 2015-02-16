@@ -1,0 +1,7 @@
+GNU Radio releases 3.7.6 and 3.7.5.2 are available for download:
+
+   ( several tens of lines omitted for URL and List of contributors)
+
+Release 3.7.5.2 is a bug-fix only maintenance patch following 3.7.5.1,
+and will be the last one for the 3.7.5 release.  Release 3.7.6
+incorporates all these fixes and adds significant new features.

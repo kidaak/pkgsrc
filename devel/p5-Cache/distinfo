@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.2 2015/01/26 07:12:27 mef Exp $
+
+SHA1 (Cache-2.10.tar.gz) = 63e0823961ddb9bcd6fd2dfe324caf3e80560eae
+RMD160 (Cache-2.10.tar.gz) = aa9a25832381c9aa2dfd515211b2d39a78f79afb
+Size (Cache-2.10.tar.gz) = 54715 bytes

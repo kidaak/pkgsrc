@@ -1,0 +1,8 @@
+@comment $NetBSD$
+lib/pkgconfig/pywebkitgtk-1.0.pc
+${PYSITELIB}/webkit/__init__.py
+${PYSITELIB}/webkit/webkit.la
+share/pywebkitgtk/defs/webkit-1.0.2.defs
+share/pywebkitgtk/defs/webkit-1.1-types.defs
+share/pywebkitgtk/defs/webkit-1.1.defs
+share/pywebkitgtk/defs/webkit-base-types.defs

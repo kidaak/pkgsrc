@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.2 2015/02/04 16:17:47 taca Exp $
+
+SHA1 (sshkit-1.6.1.gem) = fde06affc82e460bc3338e94e176772323c045c4
+RMD160 (sshkit-1.6.1.gem) = 0969871a5fa4b01fc3228ba170b8356f5136e63d
+Size (sshkit-1.6.1.gem) = 135680 bytes

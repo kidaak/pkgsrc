@@ -1,0 +1,23 @@
+/patch-CMakeLists.txt/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-CMakeModules_Functions.cmake/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-CMakeModules_config.h.cmake/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-bitmaps_png_CMakeLists.txt/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-common-edaappl.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-common_richio.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-eeschema_netform.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-eeschema_sch_component.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-eeschema_sch_sheet.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-eeschema_sch_sheet_path.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-eeschema_sheet.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-include-kicad_string.h/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-include_common.h/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_CMakeLists.txt/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_class_edge_mod.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_class_module.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_class_track.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_class_zone.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_kicad_plugin.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_legacy_plugin.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-pcbnew_xchgmod.cpp/1.1.1.1/Mon Feb 17 20:38:59 2014//
+/patch-include_hashtables.h/1.1/Fri Feb 21 20:17:03 2014//
+D

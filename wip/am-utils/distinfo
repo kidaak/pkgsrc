@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (am-utils-6.2-rc1.tar.gz) = b3afe9e4f4d4c20cc4e431af28b381f66b511114
+RMD160 (am-utils-6.2-rc1.tar.gz) = d7b4437cb69b7067a562ba3a14ae63dc2a75dda1
+Size (am-utils-6.2-rc1.tar.gz) = 1730021 bytes
+SHA1 (patch-aa) = 181e045b7bd049eddac9248c6eb4cd2209aaf325
+SHA1 (patch-ab) = 3502892407ecf89f47f3683defdf9c1dfada9f45

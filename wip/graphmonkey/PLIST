@@ -1,0 +1,5 @@
+@comment $NetBSD$
+bin/graphmonkey
+share/graphmonkey/GraphMonkey.exe
+share/pixmaps/gm.png
+share/pixmaps/graphmonkey.png

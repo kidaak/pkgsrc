@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.3 2014/10/21 17:05:54 wiedi Exp $
+
+SHA1 (spiped-1.4.2.tgz) = 90ca731378cdf74bf19576c8682398b81bd10a60
+RMD160 (spiped-1.4.2.tgz) = dcba3ac1ad15d91aeb245e639b457193e69efc61
+Size (spiped-1.4.2.tgz) = 67744 bytes

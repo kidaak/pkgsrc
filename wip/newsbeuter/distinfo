@@ -1,0 +1,7 @@
+$NetBSD$
+
+SHA1 (newsbeuter-2.8.tar.gz) = de284124c840062941b500ffbd72e3f183fb2b61
+RMD160 (newsbeuter-2.8.tar.gz) = d83d6a5264263685fe0aca2d78d191a3a634c830
+Size (newsbeuter-2.8.tar.gz) = 431299 bytes
+SHA1 (patch-config.sh) = f5a59a74faa8d84fd0d1f451a2db29e8857e11b4
+SHA1 (patch-src_controller.cpp) = 1d432e996ce47a241e6dd7ca60ac8561ecba129b

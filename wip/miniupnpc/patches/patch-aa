@@ -1,0 +1,23 @@
+$NetBSD$
+
+Always define RM and user-destdir support.
+
+--- Makefile.orig	2013-05-03 19:24:54.000000000 +0000
++++ Makefile
+@@ -49,6 +49,7 @@ JAVA = java
+ JNAERATOR = jnaerator-0.11-shaded.jar
+ JNAERATORARGS = -mode StandaloneJar -runtime JNAerator -library miniupnpc
+ JNAERATORBASEURL = http://jnaerator.googlecode.com/files/
++RM = rm
+ 
+ ifeq (SunOS, $(OS))
+   LDFLAGS=-lsocket -lnsl -lresolv
+@@ -119,7 +120,7 @@ endif
+ 
+ LIBDIR ?= lib
+ # install directories
+-INSTALLPREFIX ?= $(PREFIX)/usr
++INSTALLPREFIX ?= $(DESTDIR)$(PREFIX)
+ INSTALLDIRINC = $(INSTALLPREFIX)/include/miniupnpc
+ INSTALLDIRLIB = $(INSTALLPREFIX)/$(LIBDIR)
+ INSTALLDIRBIN = $(INSTALLPREFIX)/bin

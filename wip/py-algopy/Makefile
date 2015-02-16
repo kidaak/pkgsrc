@@ -1,0 +1,22 @@
+# $NetBSD$
+
+DISTNAME=	algopy-0.5.0
+PKGNAME=	${PYPKGPREFIX}-${DISTNAME}
+CATEGORIES=	math python
+MASTER_SITES=	https://pypi.python.org/packages/source/a/algopy/
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://packages.python.org/algopy
+COMMENT=	Taylor Arithmetic Computation and Algorithmic Differentiation
+LICENSE=	modified-bsd
+
+WRKSRC=		${WRKDIR}/algopy-0.5.0
+
+USE_LANGUAGES=	# none
+
+do-test:
+	${RUN} cd ${WRKSRC}/algopy; ${SETENV} ${TEST_ENV} ${PYTHONBIN} test_utils.py
+
+.include "../../math/py-numpy/buildlink3.mk"
+.include "../../lang/python/distutils.mk"
+.include "../../mk/bsd.pkg.mk"

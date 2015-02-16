@@ -1,0 +1,3 @@
+No need to preload libGL anymore on firefox 27 NetBSD current 6.99.36
+Lightspark now builds with clang 3.4 on NetBSD current 6.99.36
+So hopefully it is finished. (nsloss 20140327)

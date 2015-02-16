@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (ape-3.5.2.tar.xz) = 0992c36037b439d0a62616b6d20171369e46f459
+RMD160 (ape-3.5.2.tar.xz) = 64ac8666d97bc197e73e2f1114e7a4d9b2fa609f
+Size (ape-3.5.2.tar.xz) = 137908 bytes
+SHA1 (patch-Makefile) = f447ca4b2cfa96b2301a3ec2d153fb22cdd01de0

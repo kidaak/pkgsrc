@@ -1,0 +1,15 @@
+$NetBSD$
+
+Set NOMANLINKS to yes if it's not already defined.
+
+--- build.man.mk.orig	2012-07-27 04:09:48.000000000 +0000
++++ build.man.mk
+@@ -50,7 +50,7 @@ MANS=${MAN1} ${MAN2} ${MAN3} ${MAN4} ${M
+ MANLINKS?=
+ NOMAN?=
+ NOCATMAN?=
+-NOMANLINKS?=
++NOMANLINKS?=yes
+ CLEANFILES?=
+ 
+ all: all-subdir preformat-man

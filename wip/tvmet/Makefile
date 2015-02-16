@@ -1,0 +1,17 @@
+# $NetBSD$
+#
+
+DISTNAME=	tvmet-1.7.2
+CATEGORIES=	math
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=tvmet/}
+EXTRACT_SUFX=	.tar.bz2
+
+MAINTAINER=	jihbed.research@gmail.com
+HOMEPAGE=	http://tvmet.sourceforge.net/
+COMMENT=	Tiny Vector and Matrix template library
+#LICENSE=	# TODO: (see mk/license.mk)
+
+GNU_CONFIGURE=	yes
+USE_LANGUAGES=	c c++
+
+.include "../../mk/bsd.pkg.mk"

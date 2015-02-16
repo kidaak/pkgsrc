@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- talk/base/latebindingsymboltable.h.orig	2011-12-14 15:58:27.000000000 +0000
++++ talk/base/latebindingsymboltable.h
+@@ -40,7 +40,7 @@
+ 
+ namespace talk_base {
+ 
+-#ifdef LINUX
++#if defined(LINUX) || defined(__NetBSD__)
+ typedef void *DllHandle;
+ 
+ const DllHandle kInvalidDllHandle = NULL;

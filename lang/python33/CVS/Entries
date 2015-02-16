@@ -1,0 +1,13 @@
+/ALTERNATIVES/1.1/Mon Dec 10 03:15:48 2012//
+/DESCR/1.1/Mon Dec 10 03:15:48 2012//
+/buildlink3.mk/1.1/Mon Dec 10 03:15:48 2012//
+D/patches////
+/PLIST.Darwin/1.2/Mon May 20 03:27:11 2013//
+/PLIST.FreeBSD/1.1/Fri Dec  6 10:46:23 2013//
+/PLIST/1.7/Thu Mar 13 01:07:02 2014//
+/PLIST.IRIX/1.2/Thu Mar 13 01:07:04 2014//
+/PLIST.Linux/1.3/Fri Mar 28 01:15:05 2014//
+/PLIST.SunOS/1.3/Fri Mar 28 01:15:05 2014//
+/dist.mk/1.6/Fri Jan  2 01:03:55 2015//
+/Makefile/1.29/Mon Jan 12 01:03:48 2015//
+/distinfo/1.20/Fri Jan 23 01:04:14 2015//

@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.2 2015/01/30 17:35:07 kleink Exp $
+
+SHA1 (google-maps-services-python-2.1.tar.gz) = 8ac87c6f76db76f63cd860852d4c9727cf17d3a9
+RMD160 (google-maps-services-python-2.1.tar.gz) = 7b5a5f16731afe0dd52a0a92b3669f61339efdb3
+Size (google-maps-services-python-2.1.tar.gz) = 25585 bytes

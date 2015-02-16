@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (scitools-0.9.0.tar.gz) = 68f774a5580689dbecc95cd4a4dc28f56dfeca01
+RMD160 (scitools-0.9.0.tar.gz) = c0c57bc2f248ca1721e66210c00df4241a7dd4ac
+Size (scitools-0.9.0.tar.gz) = 16419259 bytes
+SHA1 (patch-setup.py) = 1f79fa957abe8eb4922b09fd7e522ee32ef763fb

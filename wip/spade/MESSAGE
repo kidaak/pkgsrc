@@ -1,0 +1,11 @@
+===========================================================================
+$NetBSD$
+
+Create file configuration using configure.py:
+
+	${PREFIX}/etc/spade/spade.xml
+	${PREFIX}/etc/spade/xmppd.xml
+
+
+
+===========================================================================

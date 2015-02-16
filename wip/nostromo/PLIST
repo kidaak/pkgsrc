@@ -1,0 +1,12 @@
+@comment $NetBSD$
+man/man8/nhttpd.8
+nostromo/conf/mimes
+nostromo/conf/nhttpd.conf-dist
+nostromo/htdocs/cgi-bin/printenv
+nostromo/htdocs/index.html
+nostromo/htdocs/nostromo.gif
+nostromo/icons/dir.gif
+nostromo/icons/file.gif
+sbin/crypt
+sbin/nhttpd
+share/examples/rc.d/nostromo

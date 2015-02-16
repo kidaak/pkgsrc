@@ -1,0 +1,6 @@
+$NetBSD$
+
+SHA1 (libftdi1-1.2.tar.bz2) = 636b9fcc745bf4eeb027a1dd891f770158444f7a
+RMD160 (libftdi1-1.2.tar.bz2) = 649ec3143c01257813626527a5f3a568262b3636
+Size (libftdi1-1.2.tar.bz2) = 100672 bytes
+SHA1 (patch-CMakeLists.txt) = c4ff3421f084da408ffc9121018d53a0623e46fa

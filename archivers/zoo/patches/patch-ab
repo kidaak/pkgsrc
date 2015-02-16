@@ -1,0 +1,69 @@
+$NetBSD: patch-ab,v 1.7 2015/01/19 00:40:35 wiedi Exp $
+
+- use standard headers
+- use standard macros for seeking
+- don't declare own lseek
+- use off_t
+- supply missing return value
+- on sunos ignore unsupported tm_gmtoff
+
+--- bsd.c.orig	1993-05-01 04:21:53.000000000 +0000
++++ bsd.c
+@@ -26,7 +26,7 @@ to be on the safe side.  It is needed fo
+ long lseek PARMS ((int, long, int));
+ long tell (fd)
+ int fd;
+-{ return (lseek (fd, 0L, 1)); }
++{ return (lseek (fd, 0L, SEEK_CUR)); }
+ #endif
+ 
+ long ftell();
+@@ -74,24 +74,15 @@ long gettz()
+ #define SEC_IN_DAY	(24L * 60L * 60L)
+ #define INV_VALUE		(SEC_IN_DAY + 1L)
+ 	static long retval = INV_VALUE;	     /* cache, init to impossible value */
+-#ifndef __386BSD__
+-   struct timeval tp;
+-   struct timezone tzp;
+-#else
+    time_t lt;
+    struct tm *tm;
+-#endif
+ 	if (retval != INV_VALUE)				 /* if have cached value, return it */
+ 		return retval;
+-#ifndef __386BSD__
+-   gettimeofday (&tp, &tzp);              /* specific to 4.3BSD */
+-   /* return (tzp.tz_minuteswest * 60); */ /* old incorrect code */
+-	/* Timezone fix thanks to Bill Davidsen <wedu@ge-crd.ARPA> */
+-	/* !! - ache@hq.demos.su */
+-	retval = tzp.tz_minuteswest * 60 - (tzp.tz_dsttime != 0) * 3600L;
+-#else
+ 	time(&lt);
+ 	tm = localtime(&lt);
++#if defined(__sun)
++	retval = 0;
++#else
+ 	retval = -tm->tm_gmtoff;
+ #endif
+ 	return retval;
+@@ -103,6 +94,7 @@ long gettz()
+ /* Standard UNIX-specific file attribute routines */
+ #include "nixmode.i"
+ 
++#include <unistd.h>
+ #ifndef SEEK_CUR
+ # define  SEEK_CUR    1
+ #endif
+@@ -110,10 +102,10 @@ long gettz()
+ /* Truncate a file. */
+ int zootrunc(f) FILE *f;
+ {
+-	extern long lseek();
+-	long seekpos;
++	off_t seekpos;
+ 	int fd = fileno(f);
+ 	seekpos = lseek(fd, 0L, SEEK_CUR);
+ 	if (seekpos >= 0)
+ 		return ftruncate(fd, seekpos);
++	return 0;
+ }

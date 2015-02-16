@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.15 2014/12/15 05:33:26 mef Exp $
+
+SHA1 (ccache-3.2.1.tar.xz) = cc34aa89802461a9742c42767f14c3eace1aafe8
+RMD160 (ccache-3.2.1.tar.xz) = 48a00126bd7760505d78a35ab5d72d1a53bbe03c
+Size (ccache-3.2.1.tar.xz) = 297868 bytes

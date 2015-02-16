@@ -1,0 +1,20 @@
+/patch-ad/1.2/Tue Jan 24 01:03:01 2012//
+/patch-al/1.2/Tue Jan 24 01:03:01 2012//
+/patch-am/1.2/Tue Jan 24 01:03:01 2012//
+/patch-cmake_FindGEOS.cmake/1.1/Mon Jan 23 08:58:00 2012//
+/patch-src_app_CMakeLists.txt/1.1/Mon Jan 23 08:58:00 2012//
+/patch-src_core_spatialindex_include_Tools.h/1.1/Mon Jan 23 08:58:00 2012//
+/patch-src_core_spatialite_spatialite.c/1.1/Mon Jan 23 08:58:00 2012//
+/patch-src_helpviewer_CMakeLists.txt/1.1/Mon Jan 23 08:58:00 2012//
+/patch-CMakeLists.txt/1.2/Mon Feb 27 01:02:29 2012//
+/patch-src_core_qgsapplication.cpp/1.1/Sun Feb 26 23:19:02 2012//
+/patch-src_core_qgsmaplayer.cpp/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_qgsmaplayer.h/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_qgsvectorlayer.cpp/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_raster_qgsrasterlayer.cpp/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_raster_qgsrasterlayer.h/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_symbology-ng_qgssymbolv2.h/1.1/Thu Jan 10 23:58:30 2013//
+/patch-src_core_qgsvectorlayer.h/1.1/Fri Jan 11 13:27:03 2013//
+/patch-src_core_spatialindex_storagemanager_DiskStorageManager.cc/1.1/Thu May 23 15:03:27 2013//
+/patch-src_core_spatialindex_tools_TemporaryFile.cc/1.1/Thu May 23 15:03:27 2013//
+D

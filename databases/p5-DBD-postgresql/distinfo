@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.37 2015/01/07 23:21:16 wiz Exp $
+
+SHA1 (DBD-Pg-3.5.0.tar.gz) = 5c784db28c12f9b7f9b7e9f34623c663342d0e57
+RMD160 (DBD-Pg-3.5.0.tar.gz) = 2a1c27da2df35c185b70126fcbb0753891fbad6a
+Size (DBD-Pg-3.5.0.tar.gz) = 255550 bytes

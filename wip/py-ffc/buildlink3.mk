@@ -1,0 +1,12 @@
+# $NetBSD$
+
+BUILDLINK_TREE+=	py-ffc
+
+.if !defined(PY_FFC_BUILDLINK3_MK)
+PY_FFC_BUILDLINK3_MK:=
+
+BUILDLINK_API_DEPENDS.py-ffc+=	${PYPKGPREFIX}-ffc>=1.0.0
+BUILDLINK_PKGSRCDIR.py-ffc?=	../../wip/py-ffc
+.endif	# PY_FFC_BUILDLINK3_MK
+
+BUILDLINK_TREE+=	-py-ffc

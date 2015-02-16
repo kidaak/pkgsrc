@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.2 2014/10/20 10:43:53 wiz Exp $
+
+SHA1 (libunistring-0.9.4.tar.gz) = f975899e13171f7a5860c61dd78e14093e1e7640
+RMD160 (libunistring-0.9.4.tar.gz) = 3cf6cecd09a2c222641e172196957789bf02ae09
+Size (libunistring-0.9.4.tar.gz) = 2966483 bytes

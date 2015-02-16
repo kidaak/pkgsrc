@@ -1,0 +1,7 @@
+@comment $NetBSD$
+bin/fastjar
+bin/grepjar
+info/fastjar.info
+lib/charset.alias
+man/man1/fastjar.1
+man/man1/grepjar.1

@@ -1,0 +1,13 @@
+$NetBSD$
+
+--- Makefile.orig	2012-06-02 12:45:42.000000000 +0000
++++ Makefile
+@@ -1,6 +1,6 @@
+ INSTALL=install
+-PREFIX=/usr
+-SYSCONFDIR=/etc
++PREFIX?=/usr
++SYSCONFDIR?=/etc
+ 
+ # Check if pkg-config is installed, we need it for building CFLAGS/LIBS
+ ifeq ($(shell which pkg-config 2>/dev/null 1>/dev/null || echo 1),1)

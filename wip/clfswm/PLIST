@@ -1,0 +1,12 @@
+@comment $NetBSD$
+bin/clfswm
+share/doc/clfswm/AUTHORS
+share/doc/clfswm/COPYING
+share/doc/clfswm/ChangeLog
+share/doc/clfswm/README
+share/doc/clfswm/TODO
+share/doc/clfswm/corner.txt
+share/doc/clfswm/keys.txt
+share/doc/clfswm/menu.txt
+share/doc/clfswm/variables.txt
+share/examples/clfswm/clfswmrc

@@ -1,0 +1,19 @@
+# $NetBSD$
+#
+
+DISTNAME=		bridge-utils-1.0.4
+CATEGORIES=		net linux
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=bridge/}
+
+MAINTAINER=		pkgsrc-users@NetBSD.org
+HOMEPAGE=		http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge
+COMMENT=		Ethernet bridging utilities for GNU/Linux
+LICENSE=		gnu-gpl-v2
+
+USE_PKGLOCALEDIR=	yes
+GNU_CONFIGURE=		yes
+USE_TOOLS+=		gmake
+
+ONLY_FOR_PLATFORM=	Linux-*-*
+
+.include "../../mk/bsd.pkg.mk"

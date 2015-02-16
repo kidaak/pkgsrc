@@ -1,0 +1,26 @@
+/patch-libgnu_string.in.h/1.1/Sat Dec 24 23:46:02 2011//
+/patch-liboctave_oct-time.cc/1.1/Sat Dec 24 23:46:02 2011//
+/patch-src_oct-conf.h.in/1.1/Sat Dec 24 23:46:02 2011//
+/patch-fflush-fpos_t.c/1.1/Fri Mar 23 22:32:59 2012//
+/patch-fseeko-fpos_t.c/1.1/Fri Mar 23 22:32:59 2012//
+/patch-scripts_pkg_pkg.m/1.1/Sat Oct 27 13:01:35 2012//
+/patch-src_DLD-FUNCTIONS_rand.cc/1.1/Sun Sep 15 12:30:55 2013//
+/patch-configure/1.1/Sun Oct 27 20:35:16 2013//
+/patch-doc_interpreter_plot.txi/1.1/Thu Mar  6 23:06:58 2014//
+/patch-doc_liboctave_liboctave.texi/1.1/Thu Mar  6 23:06:58 2014//
+/patch-libgnu_stdio.in.h/1.1/Thu Mar  6 23:09:04 2014//
+/patch-scripts_audio_wavread.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_io_strread.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_miscellaneous_getappdata.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_miscellaneous_license.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_miscellaneous_ver.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_plot_daspect.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_plot_legend.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_plot_pbaspect.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_plot_print.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_polynomial_polyval.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_set_union.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-scripts_signal_freqz.m/1.1/Thu Mar  6 23:06:58 2014//
+/patch-src_dirfns.cc/1.1/Thu Mar  6 23:06:58 2014//
+/patch-liboctave_mx-inlines.cc/1.1/Thu Jun  5 18:33:07 2014//
+D

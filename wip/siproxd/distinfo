@@ -1,0 +1,8 @@
+$NetBSD$
+
+SHA1 (siproxd-0.8.1.tar.gz) = 6226ee04b6f0080bb323cb7364ed758d1cbcbba1
+RMD160 (siproxd-0.8.1.tar.gz) = ac2f3ec40e539e69fa801fc56e6be6fd576a3570
+Size (siproxd-0.8.1.tar.gz) = 833170 bytes
+SHA1 (patch-aa) = 5cbd0460e12609f0551959e266ce4b9ca37c7559
+SHA1 (patch-src_plugins.h) = a355499fa4ba9ce2da10cae4ab1ffd474a43fd4a
+SHA1 (patch-src_rtpproxy.h) = 4189e1fa35e878ba836eb860a7143515f51aa5c1

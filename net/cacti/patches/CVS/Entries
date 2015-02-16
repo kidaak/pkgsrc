@@ -1,0 +1,11 @@
+/patch-cacti.sql/1.1.1.1/Tue Nov 22 22:23:13 2011//
+/patch-include_global.php/1.1.1.1/Tue Nov 22 22:23:13 2011//
+/patch-include_global__settings.php/1.1.1.1/Tue Nov 22 22:23:13 2011//
+/patch-host.php/1.1/Wed Jan  8 20:51:28 2014//
+/patch-install_index.php/1.2/Thu Jan  9 01:09:48 2014//
+/patch-lib_api_device.php/1.1/Wed Jan  8 20:51:28 2014//
+/patch-cdef.php/1.1/Sat Aug 23 12:50:25 2014//
+/patch-graph_xport.php/1.1/Sat Aug 23 12:50:25 2014//
+/patch-lib_graph_export.php/1.1/Sat Aug 23 12:50:25 2014//
+/patch-lib_rrd.php/1.1/Sat Aug 23 12:50:25 2014//
+D

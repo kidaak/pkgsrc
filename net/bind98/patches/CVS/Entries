@@ -1,0 +1,8 @@
+/patch-lib_dns_rbt.c/1.1.1.1/Fri Mar  4 03:52:15 2011//
+/patch-lib_lwres_getaddrinfo.c/1.1.1.1/Fri Mar  4 03:52:15 2011//
+/patch-config.threads.in/1.2/Thu Apr  5 01:12:30 2012//
+/patch-bin_tests_system_Makefile.in/1.2/Tue Oct  2 01:02:44 2012//
+/patch-bin_dig_dighost.c/1.2/Sun Sep 22 01:09:59 2013//
+/patch-lib_lwres_getnameinfo.c/1.2/Sun Sep 22 01:09:59 2013//
+/patch-configure/1.5/Tue Jan 14 01:04:51 2014//
+D
