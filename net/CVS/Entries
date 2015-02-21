@@ -419,7 +419,6 @@ D/wmnd////
 D/uucp////
 D/gt-itm////
 D/nagios-nrpe////
-D/synergy1.2////
 D/libupnp////
 D/couriertcpd////
 D/bsddip////
@@ -801,4 +800,4 @@ D/iperf3////
 D/p5-File-RsyncP////
 D/ruby-netrc////
 D/tigervnc////
-/Makefile/1.1059/Mon Feb 16 23:18:51 2015//
+/Makefile/1.1060/Sat Feb 21 20:25:58 2015//

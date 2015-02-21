@@ -1,4 +1,4 @@
-# $NetBSD: bootstrap.mk,v 1.21 2015/02/11 09:38:08 pho Exp $
+# $NetBSD: bootstrap.mk,v 1.23 2015/02/17 21:12:13 joerg Exp $
 # -----------------------------------------------------------------------------
 # Select a bindist of bootstrapping compiler on a per-platform basis.
 #
@@ -175,7 +175,7 @@ BOOT_GHC_PKGSRC_DEPS+=	${pkg}
 # cryptic error which we can't easily catch.
 BOOT_GHC_LIBDIR_CMD=		ghc --print-libdir
 .if !defined(BOOT_GHC_LIBDIR)
-BOOT_GHC_LIBDIR!=		${BOOT_GHC_LIBDIR_CMD} 2>/dev/null || ${ECHO}
+BOOT_GHC_LIBDIR!=		(${BOOT_GHC_LIBDIR_CMD}) 2>/dev/null || ${ECHO}
 .endif
 MAKEVARS+=			BOOT_GHC_LIBDIR
 BUILDLINK_PASSTHRU_DIRS+=	${BOOT_GHC_LIBDIR}
@@ -225,6 +225,8 @@ ${WRKDIR}/stamp-lndir-boot: ${WRKDIR}/lndir
 		${WRKDIR}/lndir -silent ../${PKGNAME_NOREV:Q}
 	${TOUCH} ${.TARGET}
 
+# For terminfo_CONFIGURE_OPTS, see
+# https://ghc.haskell.org/trac/ghc/ticket/10096
 ${WRKDIR}/stamp-configure-boot: ${WRKDIR}/stamp-lndir-boot
 	@${PHASE_MSG} "Configuring bootstrapping compiler ${PKGNAME_NOREV}"
 	${MKDIR} ${WRKDIR:Q}/build-boot

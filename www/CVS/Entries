@@ -608,7 +608,6 @@ D/dojo////
 D/apache24////
 D/sencha-sns////
 D/gwt////
-D/typo3_47////
 D/py-beautifulsoup4////
 D/p5-LWPx-TimedHTTP////
 D/p5-WWW-Mechanize-Timed////
@@ -681,7 +680,6 @@ D/p5-Apache-LogFormat-Compiler////
 D/p5-HTML-Mason-PSGIHandler////
 D/p5-HTML-Quoted////
 D/p5-Plack-Middleware-Test-StashWarnings////
-D/typo3_60////
 D/litmus////
 D/ruby-gnome2-webkit-gtk////
 D/ruby-gnome2-webkit-gtk2////
@@ -703,7 +701,6 @@ D/squidanalyzer////
 D/ap2-xsendfile////
 D/ap22-authz-ldap////
 D/php-http////
-D/typo3_61////
 D/ruby-cookiejar////
 D/ruby-em-http-request////
 D/ruby-http-cookie////
@@ -795,5 +792,6 @@ D/py-mod_wsgi-metrics////
 D/php-apcu////
 D/ruby-rack15////
 D/ruby-padrino-support////
-/Makefile/1.1087/Sun Feb  8 01:57:03 2015//
 D/ruby-form_data////
+/Makefile/1.1089/Sat Feb 21 20:27:00 2015//
+D/typo3_62////

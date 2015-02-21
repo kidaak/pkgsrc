@@ -169,6 +169,7 @@ A D/snort-prelude////
 A D/soup////
 A D/speakfreely////
 A D/speakfreely-crypto////
+A D/synergy1.2////
 A D/tkicb////
 A D/tkirc////
 A D/ttcp////
@@ -364,7 +365,9 @@ R D/boinc3-seti////
 R D/boinc3-libs////
 R D/boinc3-coreclient////
 R D/bitchx////
+R D/bind98////
 R D/bind97////
+R D/bind96////
 R D/bind95////
 R D/bind9-current////
 R D/bind9////

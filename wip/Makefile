@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.6086 2015/02/15 18:41:34 khorben Exp $
+# $Id: Makefile,v 1.6089 2015/02/20 13:33:19 khorben Exp $
 
 COMMENT=	WIP pkgsrc packages
 
@@ -147,6 +147,7 @@ SUBDIR+=	arphic-ukai-ttf
 SUBDIR+=	arphic-uming-ttf
 SUBDIR+=	artemis
 SUBDIR+=	ascii2binary
+SUBDIR+=	asignify
 SUBDIR+=	asio
 SUBDIR+=	aspell-dictionaries
 SUBDIR+=	asql
@@ -2016,7 +2017,6 @@ SUBDIR+=	p5-Apache-AuthenNTLM
 SUBDIR+=	p5-Apache2-ModSSL
 SUBDIR+=	p5-Arch
 SUBDIR+=	p5-Astro-SpaceTrack
-SUBDIR+=	p5-AxKit
 SUBDIR+=	p5-B-Deobfuscate
 SUBDIR+=	p5-Bit-Vector-Minimal
 SUBDIR+=	p5-CGI-Application-Dispatch
@@ -2391,6 +2391,7 @@ SUBDIR+=	pinkpony
 SUBDIR+=	pizza
 SUBDIR+=	pjproject
 SUBDIR+=	pkg
+SUBDIR+=	pkg15
 SUBDIR+=	pkg_conflicts
 SUBDIR+=	pkg_fake
 #SUBDIR+=	pkg_get			# not a package (yet?)

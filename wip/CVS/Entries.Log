@@ -203,6 +203,7 @@ A D/arpack////
 A D/arping////
 A D/artwiz-fonts////
 A D/asfrecorder////
+A D/asignify////
 A D/aspell-finnish////
 A D/aspell-telugu////
 A D/aspyct////
@@ -331,6 +332,8 @@ A D/chktex////
 A D/chmlib////
 A D/chromium-data////
 A D/chromium-devel////
+A D/cinnamon-desktop////
+A D/cinnamon-menus////
 A D/cityhash////
 A D/cjk-latex////
 A D/cjk-latex-chinese////
@@ -394,6 +397,7 @@ A D/cvsup////
 A D/cvsup-gui////
 A D/cvsup-mirror////
 A D/cvsutils////
+A D/cwdiff////
 A D/cyrus-imapd////
 A D/cyrus-imapd22////
 A D/cython////
@@ -694,6 +698,7 @@ A D/gg2////
 A D/ggz-client-libs////
 A D/ggz-libggz////
 A D/ghemical////
+A D/ghmm////
 A D/ghostpcl////
 A D/ghostscript////
 A D/gift////
@@ -1677,6 +1682,7 @@ A D/libssh////
 A D/libssh2////
 A D/libstatgrab////
 A D/libtasn1////
+A D/libtermkey////
 A D/libticables////
 A D/libticables2////
 A D/libticalcs////
@@ -1686,6 +1692,7 @@ A D/libtifiles////
 A D/libtifiles2////
 A D/libtlen////
 A D/libtorrent////
+A D/libunibilium////
 A D/libunique3////
 A D/libunistring////
 A D/libupnp////
@@ -2533,11 +2540,13 @@ A D/pidgin////
 A D/pine-pgp-filters////
 A D/pinentry////
 A D/pipestatus////
+A D/piwik////
 A D/pixel-sagas-st////
 A D/pixieplus////
 A D/pixman////
 A D/pkcs11-helper////
 A D/pkg-config////
+A D/pkg15////
 A D/pkg_cmp_summary////
 A D/pkg_distclean////
 A D/pkg_install-testing////
@@ -2671,6 +2680,7 @@ A D/py-Xlib////
 A D/py-ZODB////
 A D/py-ZopeInterface////
 A D/py-adns////
+A D/py-affine////
 A D/py-altgraph////
 A D/py-anyjson////
 A D/py-ao////
@@ -2707,6 +2717,7 @@ A D/py-daemon////
 A D/py-dateutil////
 A D/py-dbxml////
 A D/py-decorator////
+A D/py-dependenpy////
 A D/py-divmod-nevow////
 A D/py-django////
 A D/py-django-tagging////
@@ -2719,6 +2730,7 @@ A D/py-elementtree////
 A D/py-empy////
 A D/py-ezPyCrypto////
 A D/py-f2py2e////
+A D/py-fedmsg////
 A D/py-flakes////
 A D/py-fonttools////
 A D/py-foolscap////
@@ -2741,6 +2753,7 @@ A D/py-h5py////
 A D/py-httplib2////
 A D/py-icalendar////
 A D/py-imgSeek////
+A D/py-imreg-dft////
 A D/py-ipaddr////
 A D/py-ipython////
 A D/py-itstool////
@@ -2748,6 +2761,7 @@ A D/py-jabber-msnt////
 A D/py-jsonlib////
 A D/py-kde4////
 A D/py-keyring////
+A D/py-kitchen////
 A D/py-kombu////
 A D/py-last////
 A D/py-libdisassemble////
@@ -2763,6 +2777,7 @@ A D/py-logilab-astng////
 A D/py-logilab-common////
 A D/py-logilab-doctools////
 A D/py-logilab-lint////
+A D/py-m2ext////
 A D/py-mad////
 A D/py-magic////
 A D/py-mako////
@@ -2771,6 +2786,8 @@ A D/py-mecab////
 A D/py-memcached////
 A D/py-ming////
 A D/py-mmpython////
+A D/py-moksha-common////
+A D/py-moksha-hub////
 A D/py-mongo////
 A D/py-mpich4py////
 A D/py-mpmath////
@@ -2839,10 +2856,13 @@ A D/py-twisted-web////
 A D/py-twisted-words////
 A D/py-twisted-xish////
 A D/py-twisted-zopeinterface////
+A D/py-txWS////
+A D/py-txZMQ////
 A D/py-tz////
 A D/py-uwsgi////
 A D/py-uwsgitop////
 A D/py-van.testing////
+A D/py-vcversioner////
 A D/py-vorbis////
 A D/py-vtkmodule////
 A D/py-webob////
@@ -5181,6 +5201,7 @@ R D/p5-Barcode-Code128////
 R D/p5-BSD-arc4random////
 R D/p5-BSD-Resource////
 R D/p5-B-Keywords////
+R D/p5-AxKit////
 R D/p5-Authen-TacacsPlus////
 R D/p5-Authen-SASL-Cyrus////
 R D/p5-Authen-SASL////

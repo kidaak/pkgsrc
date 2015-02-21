@@ -1953,8 +1953,9 @@ D/p5-Object-Accessor////
 D/p5-Data-Dumper////
 D/p5-Git-Repository-Plugin-AUTOLOAD////
 D/p5-List-Pairwise////
-/Makefile/1.2056/Mon Feb 16 23:12:24 2015//
 D/alex////
 D/hs-QuickCheck////
 D/p5-Signal-Mask////
 D/p5-autovivification////
+/Makefile/1.2057/Sat Feb 21 20:24:44 2015//
+D/p5-ExtUtils-MakeMaker-Coverage////

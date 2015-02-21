@@ -1,7 +1,8 @@
-# $NetBSD: Makefile,v 1.67 2015/02/16 15:33:32 adam Exp $
+# $NetBSD: Makefile,v 1.69 2015/02/17 05:59:54 taca Exp $
 
 DISTNAME=	roundcubemail-1.1.0
 PKGNAME=	${DISTNAME:S/mail-/-/}
+PKGREVISION=	1
 CATEGORIES=	mail
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=roundcubemail/}
 
@@ -13,6 +14,7 @@ LICENSE=	gnu-gpl-v3
 DEPENDS+=	${PHP_PKG_PREFIX}-iconv>=${PHP_BASE_VERS}:../../converters/php-iconv
 DEPENDS+=	${PHP_PKG_PREFIX}-mbstring>=${PHP_BASE_VERS}:../../converters/php-mbstring
 DEPENDS+=	${PHP_PKG_PREFIX}-dom>=${PHP_BASE_VERS}:../../textproc/php-dom
+DEPENDS+=	${PHP_PKG_PREFIX}-exif>=${PHP_BASE_VERS}:../../graphics/php-exif
 DEPENDS+=	${PHP_PKG_PREFIX}-intl>=${PHP_BASE_VERS}:../../textproc/php-intl
 DEPENDS+=	${PHP_PKG_PREFIX}-json>=${PHP_BASE_VERS}:../../textproc/php-json
 DEPENDS+=	${PHP_PKG_PREFIX}-mcrypt>=${PHP_BASE_VERS}:../../security/php-mcrypt

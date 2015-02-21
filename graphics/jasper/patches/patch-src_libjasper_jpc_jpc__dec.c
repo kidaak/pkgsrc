@@ -1,4 +1,4 @@
-$NetBSD: patch-src_libjasper_jpc_jpc__dec.c,v 1.2 2015/02/08 23:04:22 snj Exp $
+$NetBSD$
 
 Apply fixes from
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=469786
