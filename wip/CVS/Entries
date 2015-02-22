@@ -1814,7 +1814,6 @@ D/p5-Apache-AuthenNTLM////
 D/p5-Apache2-ModSSL////
 D/p5-Arch////
 D/p5-Astro-SpaceTrack////
-D/p5-AxKit////
 D/p5-B-Deobfuscate////
 D/p5-Bit-Vector-Minimal////
 D/p5-CGI-Application-Dispatch////
@@ -3999,3 +3998,23 @@ D/zabbix-server////
 D/zabbix-server-mysql////
 D/zabbix-server-pgsql////
 /Makefile/1.6089/Sat Feb 21 20:27:08 2015//
+D/asignify////
+D/cinnamon-desktop////
+D/cinnamon-menus////
+D/cwdiff////
+D/ghmm////
+D/libtermkey////
+D/libunibilium////
+D/piwik////
+D/pkg15////
+D/py-affine////
+D/py-dependenpy////
+D/py-fedmsg////
+D/py-imreg-dft////
+D/py-kitchen////
+D/py-m2ext////
+D/py-moksha-common////
+D/py-moksha-hub////
+D/py-txWS////
+D/py-txZMQ////
+D/py-vcversioner////

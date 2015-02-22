@@ -528,7 +528,6 @@ D/barnyard////
 D/wpa_supplicant////
 D/openresolv////
 D/avahi////
-D/bind96////
 D/p5-RadiusPerl////
 D/miniupnpd////
 D/p5-Data-Stream-Bulk////
@@ -623,7 +622,6 @@ D/unison2.32////
 D/p5-Net-DNS-Zone-Parser////
 D/nicovideo-dl////
 D/p5-Net-DNS-Resolver-Programmable////
-D/bind98////
 D/p5-Net-INET6Glue////
 D/glib-networking////
 D/mikutter////
