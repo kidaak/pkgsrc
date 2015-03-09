@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.63 2015/02/17 13:56:05 wiz Exp $
+# $NetBSD: Makefile,v 1.66 2015/03/09 08:13:07 wiz Exp $
 
-EGG_VERSION=		12.1
+EGG_VERSION=		14.0
 DISTNAME=		setuptools-${EGG_VERSION}
 PKGNAME=		${PYPKGPREFIX}-setuptools-${EGG_VERSION}
 CATEGORIES=		devel python

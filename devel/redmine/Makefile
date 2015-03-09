@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.2 2015/01/25 13:09:10 joerg Exp $
+# $NetBSD: Makefile,v 1.4 2015/03/08 15:49:35 taca Exp $
 
 DISTNAME=	redmine-2.6.0
 PKGNAME=	${RUBY_PKGPREFIX}-${DISTNAME}
@@ -69,6 +69,8 @@ DISTFILES+=	${DEFAULT_DISTFILES} \
 		websocket-1.2.1.gem \
 		xpath-2.0.0.gem \
 		yard-0.8.7.6.gem
+
+RUBY_VERSION_SUPPORTED= 193 200 21
 
 .include "options.mk"
 
@@ -184,20 +186,8 @@ BUILD_DEFS+=	APACHE_GROUP APACHE_USER
 FILES_SUBST+=	WWWGRP=${APACHE_GROUP} WWWOWN=${APACHE_USER} \
 		RM_DIR=${RM_DIR}
 
-# XXX The following is borrowed from lang/ruby/gem.mk.
-# XXX Please integrate the following to lang/ruby/*.mk.
-do-extract:
-# Extract non-gem tarball
-	${RUN} extract_file=${_DISTDIR:Q}/${DISTFILES:M*${EXTRACT_SUFX}:Q}; export extract_file;  \
-		cd ${WRKDIR} && cd ${EXTRACT_DIR.${DISTFILES:M*${EXTRACT_SUFX}:Q}} && ${EXTRACT_CMD}
-# Extract gems
-.for _gem_ in ${DISTFILES:M*.gem}
-	${RUN} cd ${WRKDIR} && ${SETENV} ${MAKE_ENV} ${RUBYGEM_ENV} \
-		${RUBYGEM_NAME} unpack ${_DISTDIR:Q}/${_gem_:Q}
-	${RUN} cd ${WRKDIR} && \
-		${SETENV} ${MAKE_ENV} TZ=UTC ${RUBYGEM_ENV} \
-		${RUBYGEM_NAME} spec --ruby ${_DISTDIR:Q}/${_gem_:Q} > ${_gem_}spec
-.endfor
+GEM_EXTSDIR_NEEDS_SUBDIR=	no
+.include "../../lang/ruby/gem-extract.mk"
 
 do-build:
 .for _gem_ in ${DISTFILES:M*.gem:S/.gem$//g}
@@ -216,18 +206,6 @@ _RUBYGEM_OPTIONS+=	--ignore-dependencies
 _RUBYGEM_OPTIONS+=	--no-ri --no-rdoc
 
 .include "../../lang/ruby/rubyversion.mk"
-.if !empty(RUBY_GEMS_VERSION)
-_RUBYGEMS_MAJOR=	${RUBY_GEMS_VERSION:C/\.[0-9\.]+$//}
-_RUBYGEMS_MINORS=	${RUBY_GEMS_VERSION:C/^([0-9]+)\.*//}
-.  if ${_RUBYGEMS_MAJOR} >= 2 && ${_RUBYGEMS_MINORS} >= 2
-GEM_EXTSDIR=	${GEM_HOME}/extensions/${RUBY_ARCH}/${RUBY_VERSION}
-.  endif
-.  if !empty(GEM_EXTSDIR)
-PLIST_SUBST+=		GEM_EXTSDIR=${GEM_EXTSDIR}
-.  else
-PLIST_SUBST+=		GEM_EXTSDIR="@comment "
-.  endif
-.endif
 
 do-install:
 # Install gems

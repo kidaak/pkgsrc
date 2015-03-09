@@ -1,9 +1,8 @@
-# $NetBSD: Makefile,v 1.9 2015/01/02 07:32:58 ryoon Exp $
+# $NetBSD: Makefile,v 1.11 2015/03/08 15:52:51 taca Exp $
 #
 
 DISTNAME=	${RUBY_DISTNAME}
 PKGNAME=	${RUBY_PKGPREFIX}-base-${RUBY_VERSION_FULL}
-PKGREVISION=	1
 CATEGORIES=	lang ruby
 MASTER_SITES=	${MASTER_SITE_RUBY}
 
@@ -78,7 +77,7 @@ SUBST_MESSAGE.conf=	Fixing configuration files.
 .if !empty(RUBY_SUFFIX)
 CONFIGURE_ARGS+= --program-suffix=${RUBY_SUFFIX}
 CONFIGURE_ARGS+= --with-soname=${RUBY_NAME}
-CONFIGURE_ARGS+= --with-ruby-version=${RUBY_VERSION}
+CONFIGURE_ARGS+= --with-ruby-version=${RUBY_VER_DIR}
 CONFIGURE_ARGS+= --with-ruby-pc="ruby-${RUBY_VERSION}.pc"
 .endif
 

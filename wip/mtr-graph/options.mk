@@ -8,9 +8,13 @@ PKG_OPTIONS_OPTIONAL_GROUPS+=	graphcairo
 PKG_OPTIONS_GROUP.graphcairo+=	graphcairo-xcb
 PKG_OPTIONS_GROUP.graphcairo+=	graphcairo-xlib
 PKG_SUPPORTED_OPTIONS+=	libidn
+PKG_SUPPORTED_OPTIONS+=	unicode
+PKG_SUPPORTED_OPTIONS+=	sys-getopt
 PKG_SUGGESTED_OPTIONS=	inet6
 PKG_SUGGESTED_OPTIONS+=	ipinfo
 PKG_SUGGESTED_OPTIONS+=	graphcairo-xcb
+PKG_SUGGESTED_OPTIONS+=	unicode
+PKG_SUGGESTED_OPTIONS+=	sys-getopt
 
 .include "../../mk/bsd.options.mk"
 
@@ -49,4 +53,12 @@ CONFIGURE_ARGS+=	--with-graphcairo-xlib
 .if !empty(PKG_OPTIONS:Mlibidn)
 .include "../../devel/libidn/buildlink3.mk"
 CONFIGURE_ARGS+=	--with-libidn
+.endif
+
+.if !empty(PKG_OPTIONS:Municode)
+CONFIGURE_ARGS+=	--with-unicode
+.endif
+
+.if !empty(PKG_OPTIONS:Msys-getopt)
+CONFIGURE_ARGS+=	--with-sys-getopt
 .endif

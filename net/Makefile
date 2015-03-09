@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.1060 2015/02/19 14:49:52 taca Exp $
+# $NetBSD: Makefile,v 1.1064 2015/03/02 15:28:25 wiz Exp $
 #
 
 COMMENT=	Networking tools
@@ -387,6 +387,7 @@ SUBDIR+=	oinkmaster
 SUBDIR+=	omniNotify
 SUBDIR+=	omniORB
 SUBDIR+=	openag
+SUBDIR+=	openconnect
 SUBDIR+=	openh323
 SUBDIR+=	openntpd
 SUBDIR+=	openresolv
@@ -454,6 +455,7 @@ SUBDIR+=	p5-Net-Libdnet6
 SUBDIR+=	p5-Net-MAC
 SUBDIR+=	p5-Net-NBName
 SUBDIR+=	p5-Net-OAuth
+SUBDIR+=	p5-Net-OpenID-Common
 SUBDIR+=	p5-Net-OpenID-Consumer
 SUBDIR+=	p5-Net-Packet
 SUBDIR+=	p5-Net-Pcap
@@ -651,7 +653,6 @@ SUBDIR+=	ruby-twitter
 SUBDIR+=	ruby-twitter-stream
 SUBDIR+=	ruby-userstream
 SUBDIR+=	samba
-SUBDIR+=	samba35
 SUBDIR+=	scamper
 SUBDIR+=	scapy
 SUBDIR+=	scdp
@@ -756,6 +757,7 @@ SUBDIR+=	vnc
 SUBDIR+=	vncviewer
 SUBDIR+=	vnstat
 SUBDIR+=	vpnc
+SUBDIR+=	vpnc-script
 SUBDIR+=	vsftpd
 SUBDIR+=	vtun
 SUBDIR+=	wakeup

@@ -401,9 +401,10 @@ share/piwik/core/Updates/2.10.0-b4.php
 share/piwik/core/Updates/2.10.0-b5.php
 share/piwik/core/Updates/2.10.0-b7.php
 share/piwik/core/Updates/2.10.0-b8.php
-share/piwik/core/Updates/${PKGVERSION}-b2.php
-share/piwik/core/Updates/${PKGVERSION}-b4.php
-share/piwik/core/Updates/${PKGVERSION}-b5.php
+share/piwik/core/Updates/2.11.0-b2.php
+share/piwik/core/Updates/2.11.0-b4.php
+share/piwik/core/Updates/2.11.0-b5.php
+share/piwik/core/Updates/2.11.1-b4.php
 share/piwik/core/Updates/2.2.0-b15.php
 share/piwik/core/Updates/2.2.3-b6.php
 share/piwik/core/Updates/2.3.0-rc2.php
@@ -1769,6 +1770,7 @@ share/piwik/plugins/Contents/Reports/GetContentNames.php
 share/piwik/plugins/Contents/Reports/GetContentPieces.php
 share/piwik/plugins/Contents/javascripts/contentsDataTable.js
 share/piwik/plugins/Contents/lang/ar.json
+share/piwik/plugins/Contents/lang/ca.json
 share/piwik/plugins/Contents/lang/cs.json
 share/piwik/plugins/Contents/lang/da.json
 share/piwik/plugins/Contents/lang/de.json
@@ -1784,6 +1786,9 @@ share/piwik/plugins/Contents/lang/nb.json
 share/piwik/plugins/Contents/lang/nl.json
 share/piwik/plugins/Contents/lang/pl.json
 share/piwik/plugins/Contents/lang/pt.json
+share/piwik/plugins/Contents/lang/ru.json
+share/piwik/plugins/Contents/lang/sl.json
+share/piwik/plugins/Contents/lang/sv.json
 share/piwik/plugins/Contents/lang/tl.json
 share/piwik/plugins/Contents/lang/tr.json
 share/piwik/plugins/Contents/plugin.json
@@ -2289,6 +2294,7 @@ share/piwik/plugins/CoreVisualizations/CoreVisualizations.php
 share/piwik/plugins/CoreVisualizations/JqplotDataGenerator.php
 share/piwik/plugins/CoreVisualizations/JqplotDataGenerator/Chart.php
 share/piwik/plugins/CoreVisualizations/JqplotDataGenerator/Evolution.php
+share/piwik/plugins/CoreVisualizations/Metrics/Formatter/Numeric.php
 share/piwik/plugins/CoreVisualizations/Visualizations/Cloud.php
 share/piwik/plugins/CoreVisualizations/Visualizations/Cloud/Config.php
 share/piwik/plugins/CoreVisualizations/Visualizations/Graph.php
@@ -2844,6 +2850,7 @@ share/piwik/plugins/DevicesDetection/images/browsers/TZ.gif
 share/piwik/plugins/DevicesDetection/images/browsers/UC.gif
 share/piwik/plugins/DevicesDetection/images/browsers/UN.gif
 share/piwik/plugins/DevicesDetection/images/browsers/UNK.gif
+share/piwik/plugins/DevicesDetection/images/browsers/VI.gif
 share/piwik/plugins/DevicesDetection/images/browsers/WE.gif
 share/piwik/plugins/DevicesDetection/images/browsers/WO.gif
 share/piwik/plugins/DevicesDetection/images/browsers/WP.gif
@@ -3009,7 +3016,13 @@ share/piwik/plugins/Ecommerce/lang/da.json
 share/piwik/plugins/Ecommerce/lang/de.json
 share/piwik/plugins/Ecommerce/lang/el.json
 share/piwik/plugins/Ecommerce/lang/en.json
+share/piwik/plugins/Ecommerce/lang/fr.json
 share/piwik/plugins/Ecommerce/lang/it.json
+share/piwik/plugins/Ecommerce/lang/nb.json
+share/piwik/plugins/Ecommerce/lang/nl.json
+share/piwik/plugins/Ecommerce/lang/pt.json
+share/piwik/plugins/Ecommerce/lang/ru.json
+share/piwik/plugins/Ecommerce/lang/sv.json
 share/piwik/plugins/Ecommerce/plugin.json
 share/piwik/plugins/Ecommerce/templates/ecommerceLog.twig
 share/piwik/plugins/Ecommerce/templates/products.twig
@@ -3053,6 +3066,7 @@ share/piwik/plugins/Events/lang/nb.json
 share/piwik/plugins/Events/lang/nl.json
 share/piwik/plugins/Events/lang/pl.json
 share/piwik/plugins/Events/lang/pt-br.json
+share/piwik/plugins/Events/lang/pt.json
 share/piwik/plugins/Events/lang/ro.json
 share/piwik/plugins/Events/lang/ru.json
 share/piwik/plugins/Events/lang/sl.json
@@ -3833,6 +3847,7 @@ share/piwik/plugins/Monolog/Processor/ClassNameProcessor.php
 share/piwik/plugins/Monolog/Processor/ExceptionToTextProcessor.php
 share/piwik/plugins/Monolog/Processor/RequestIdProcessor.php
 share/piwik/plugins/Monolog/Processor/SprintfProcessor.php
+share/piwik/plugins/Monolog/Processor/TokenProcessor.php
 share/piwik/plugins/Monolog/Test/Integration/Fixture/LoggerWrapper.php
 share/piwik/plugins/Monolog/Test/Integration/LogTest.php
 share/piwik/plugins/Monolog/Test/Unit/Formatter/LineMessageFormatterTest.php
@@ -3840,6 +3855,7 @@ share/piwik/plugins/Monolog/Test/Unit/Processor/ClassNameProcessorTest.php
 share/piwik/plugins/Monolog/Test/Unit/Processor/ExceptionToTextProcessorTest.php
 share/piwik/plugins/Monolog/Test/Unit/Processor/RequestIdProcessorTest.php
 share/piwik/plugins/Monolog/Test/Unit/Processor/SprintfProcessorTest.php
+share/piwik/plugins/Monolog/Test/Unit/Processor/TokenProcessorTest.php
 share/piwik/plugins/Monolog/config/config.php
 share/piwik/plugins/Monolog/plugin.json
 share/piwik/plugins/Morpheus/images/add.png
@@ -4297,6 +4313,7 @@ share/piwik/plugins/Referrers/images/searchEngines/duckduckgo.com.png
 share/piwik/plugins/Referrers/images/searchEngines/ecosia.org.png
 share/piwik/plugins/Referrers/images/searchEngines/encrypted.google.com.png
 share/piwik/plugins/Referrers/images/searchEngines/eo.st.png
+share/piwik/plugins/Referrers/images/searchEngines/extern.peoplecheck.de.png
 share/piwik/plugins/Referrers/images/searchEngines/forestle.org.png
 share/piwik/plugins/Referrers/images/searchEngines/fr.dir.com.png
 share/piwik/plugins/Referrers/images/searchEngines/fr.wedoo.com.png
@@ -4463,12 +4480,14 @@ share/piwik/plugins/Referrers/images/searchEngines/www.paperball.de.png
 share/piwik/plugins/Referrers/images/searchEngines/www.picsearch.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.plazoo.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.qualigo.at.png
+share/piwik/plugins/Referrers/images/searchEngines/www.qwant.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.search.ch.png
 share/piwik/plugins/Referrers/images/searchEngines/www.search.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.searchcanvas.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.searchy.co.uk.png
 share/piwik/plugins/Referrers/images/searchEngines/www.sharelook.fr.png
 share/piwik/plugins/Referrers/images/searchEngines/www.skynet.be.png
+share/piwik/plugins/Referrers/images/searchEngines/www.sm.de.png
 share/piwik/plugins/Referrers/images/searchEngines/www.so-net.ne.jp.png
 share/piwik/plugins/Referrers/images/searchEngines/www.sogou.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.soso.com.png
@@ -4482,6 +4501,7 @@ share/piwik/plugins/Referrers/images/searchEngines/www.teoma.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.tixuma.de.png
 share/piwik/plugins/Referrers/images/searchEngines/www.toile.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.toolbarhome.com.png
+share/piwik/plugins/Referrers/images/searchEngines/www.toppreise.ch.png
 share/piwik/plugins/Referrers/images/searchEngines/www.trouvez.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.trovarapido.com.png
 share/piwik/plugins/Referrers/images/searchEngines/www.trusted-search.com.png
@@ -6459,8 +6479,11 @@ share/piwik/tests/PHPUnit/System/expected/test_BackwardsCompatibility1XTest__Vis
 share/piwik/tests/PHPUnit/System/expected/test_BackwardsCompatibility1XTest_multipleDates__VisitFrequency.get_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_BackwardsCompatibility1XTest_multipleOldNew__VisitFrequency.get_month.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Actions.getPageUrls_lastN__API.getProcessedReport_day.xml
+share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getAction_flat__API.getProcessedReport_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getAction_lastN__API.getProcessedReport_day.xml
+share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getCategory_flat__API.getProcessedReport_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getCategory_lastN__API.getProcessedReport_day.xml
+share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getName_flat__API.getProcessedReport_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents_Events.getName_lastN__API.getProcessedReport_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents__Actions.getPageUrls_day.xml
 share/piwik/tests/PHPUnit/System/expected/test_CustomEvents__Actions.getPageUrls_month.xml

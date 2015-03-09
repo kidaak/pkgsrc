@@ -1,7 +1,7 @@
-# $NetBSD: Makefile,v 1.60 2015/02/16 09:56:15 ryoon Exp $
+# $NetBSD: Makefile,v 1.63 2015/03/09 09:02:20 wiz Exp $
 
-VERREL=		4.4.0
-VERRC=		3
+VERREL=		4.4.1
+VERRC=		2
 VER=		${VERREL}.${VERRC}
 DISTNAME=	libreoffice-${VER}
 PKGNAME=	libreoffice4-${VER}
@@ -84,7 +84,8 @@ MORE_DISTFILES= \
 	368f114c078f94214a308a74c7e991bc-crosextrafonts-20130214.tar.gz \
 	OpenCOLLADA-master-6509aa13af.tar.bz2 \
 	CoinMP-1.7.6.tgz \
-	c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar.gz
+	c74b7223abe75949b4af367942d96c7a-crosextrafonts-carlito-20130920.tar.gz \
+	798b2ffdc8bcfe7bca2cf92b62caf685-rhino1_5R5.zip
 
 .for md in ${MORE_DISTFILES}
 DISTFILES+=		${md}

@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.821 2015/02/07 14:57:16 taca Exp $
+# $NetBSD: Makefile,v 1.823 2015/03/09 14:52:11 mef Exp $
 #
 
 COMMENT=	Text processing utilities (does not include desktop publishing)
@@ -128,6 +128,7 @@ SUBDIR+=	convertlit
 SUBDIR+=	crimson
 SUBDIR+=	crush-tools
 SUBDIR+=	csvkit
+SUBDIR+=	cwdiff
 SUBDIR+=	dadadodo
 SUBDIR+=	db2latex
 SUBDIR+=	dblatex
@@ -806,6 +807,7 @@ SUBDIR+=	tex-makeindex-doc
 SUBDIR+=	tex-xmltex
 SUBDIR+=	tex-xmltex-doc
 SUBDIR+=	texi2html
+SUBDIR+=	texi2mdoc
 SUBDIR+=	texi2roff
 SUBDIR+=	the_silver_searcher
 SUBDIR+=	tinyxml

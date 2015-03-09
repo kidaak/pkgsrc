@@ -3,4 +3,6 @@
 /patch-ac/1.9/Mon Jan 20 01:47:43 2014//
 /patch-include_llvm_Support_Host.h/1.2/Mon Jan 20 01:47:43 2014//
 /patch-tools_clang_tools_scan-build_scan-build/1.1/Wed Oct  1 09:41:02 2014//
+/patch-tools_lli_Makefile/1.1/Tue Mar  3 16:27:33 2015//
+/patch-unittests_ExecutionEngine_MCJIT_Makefile/1.1/Tue Mar  3 16:27:33 2015//
 D

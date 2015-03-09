@@ -157,6 +157,7 @@ A D/samba2////
 A D/samba20////
 A D/samba30////
 A D/samba33////
+A D/samba35////
 A D/scotty////
 A D/sftp////
 A D/sirc////
@@ -225,6 +226,7 @@ R D/skype////
 R D/sirc////
 R D/sftp////
 R D/scotty////
+R D/samba35////
 R D/samba33////
 R D/samba30////
 R D/samba20////

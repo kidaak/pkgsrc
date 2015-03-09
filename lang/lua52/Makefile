@@ -1,8 +1,7 @@
-# $NetBSD: Makefile,v 1.6 2014/10/09 14:06:38 wiz Exp $
+# $NetBSD: Makefile,v 1.8 2015/03/08 10:55:19 alnsn Exp $
 
 DISTNAME=	lua-${LUA_VERSION}
 PKGNAME=	lua52-${LUA_VERSION}
-PKGREVISION=	1
 CATEGORIES=	lang
 MASTER_SITES=	http://www.lua.org/ftp/ \
 		http://www.tecgraf.puc-rio.br/lua/ftp/
@@ -30,6 +29,8 @@ INSTALLATION_DIRS+=	lib/pkgconfig share/doc/lua-5.2
 .if ${OPSYS} == "FreeBSD"
 BUILD_TARGET=	freebsd
 .elif !empty(OPSYS:M*BSD*) || ${OPSYS} == "DragonFly"
+BUILD_TARGET=	bsd
+.elif ${OPSYS} == "Cygwin"
 BUILD_TARGET=	bsd
 .elif ${OPSYS} == "Linux"
 BUILD_TARGET=	linux

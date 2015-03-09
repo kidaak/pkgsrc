@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.20 2014/06/15 09:35:28 asau Exp $
+# $NetBSD: Makefile,v 1.22 2015/03/04 15:02:36 jaapb Exp $
 
-PKGNAME=	racket-minimal-6.0.1
+PKGNAME=	racket-minimal-6.1.1
 DISTNAME=	$(PKGNAME_NOREV)-src
 CATEGORIES=	lang
 MASTER_SITES_PLT=	http://download.racket-lang.org/installers/$(PKGVERSION_NOREV)/ \
@@ -29,6 +29,7 @@ CONFIGURE_ARGS=	--enable-pthread
 USE_LANGUAGES=	c c++
 MAKE_JOBS_SAFE=	no
 UNLIMIT_RESOURCES=	datasize
+OVERRIDE_DIRDEPTH=	3
 
 LDFLAGS.DragonFly+=	-rdynamic
 

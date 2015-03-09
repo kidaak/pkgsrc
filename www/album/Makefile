@@ -1,11 +1,8 @@
-# $NetBSD: Makefile,v 1.19 2015/01/08 01:49:31 mef Exp $
+# $NetBSD: Makefile,v 1.21 2015/03/03 06:05:06 mef Exp $
 
-DISTNAME=	album
-ALBUMREV=	4.12
-PKGNAME=	${DISTNAME}-${ALBUMREV}
+DISTNAME=	album-4.13
 CATEGORIES=	www
-MASTER_SITES=	http://marginalhacks.com/bin/
-DIST_SUBDIR=	${PKGNAME_NOREV}
+MASTER_SITES=	http://marginalhacks.com/bin/album.versions/
 
 MAINTAINER=	pkgsrc-users@NetBSD.org
 HOMEPAGE=	http://marginalhacks.com/Hacks/album/

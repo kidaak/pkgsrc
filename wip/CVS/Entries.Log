@@ -23,7 +23,6 @@ A D/Jcode////
 A D/LuaJIT////
 A D/Lucu////
 A D/Mesa////
-A D/MesaLib////
 A D/MesaLib-dri////
 A D/MissingH////
 A D/MozillaFirebird-bin-xft2////
@@ -203,7 +202,6 @@ A D/arpack////
 A D/arping////
 A D/artwiz-fonts////
 A D/asfrecorder////
-A D/asignify////
 A D/aspell-finnish////
 A D/aspell-telugu////
 A D/aspyct////
@@ -213,6 +211,7 @@ A D/atasm////
 A D/ati-xfree86-bin-init////
 A D/atk-devel////
 A D/atque////
+A D/atril////
 A D/aubio////
 A D/auc-current////
 A D/audacity12////
@@ -291,6 +290,9 @@ A D/cacti////
 A D/cacti-plugin-arch////
 A D/cacti-spine////
 A D/cairo////
+A D/caja////
+A D/caja-dropbox////
+A D/caja-extensions////
 A D/cal3d////
 A D/cal3d_cally////
 A D/calcurse-2.8////
@@ -332,8 +334,6 @@ A D/chktex////
 A D/chmlib////
 A D/chromium-data////
 A D/chromium-devel////
-A D/cinnamon-desktop////
-A D/cinnamon-menus////
 A D/cityhash////
 A D/cjk-latex////
 A D/cjk-latex-chinese////
@@ -369,7 +369,9 @@ A D/concurrencykit////
 A D/confuse////
 A D/conglomerate////
 A D/conky////
+A D/connect////
 A D/conserver8////
+A D/consolekit////
 A D/coq////
 A D/coreutils////
 A D/corkscrew////
@@ -444,6 +446,7 @@ A D/dhcpcd////
 A D/dhcpcd-dbus////
 A D/dhcpcd-gtk////
 A D/dhex////
+A D/dhisd////
 A D/di////
 A D/dia2code////
 A D/dict-client////
@@ -530,8 +533,10 @@ A D/emerillon////
 A D/emesene////
 A D/endeavour////
 A D/engine-pkcs11////
+A D/engrampa////
 A D/ent////
 A D/entropy////
+A D/eom////
 A D/epm////
 A D/epplets////
 A D/epsg////
@@ -698,7 +703,6 @@ A D/gg2////
 A D/ggz-client-libs////
 A D/ggz-libggz////
 A D/ghemical////
-A D/ghmm////
 A D/ghostpcl////
 A D/ghostscript////
 A D/gift////
@@ -770,6 +774,7 @@ A D/gnocky////
 A D/gnome-acme////
 A D/gnome-chemistry-utils////
 A D/gnome-commander////
+A D/gnome-main-menu////
 A D/gnome-mplayer////
 A D/gnome-pilot////
 A D/gnome-speech////
@@ -787,6 +792,7 @@ A D/gnucash////
 A D/gnucash-docs////
 A D/gnumeric////
 A D/gnupg-1.9////
+A D/gnuplot////
 A D/gnutls////
 A D/gob2////
 A D/gobby////
@@ -1024,6 +1030,7 @@ A D/hs-QuickCheck////
 A D/hs-aeson////
 A D/hs-ansi-terminal////
 A D/hs-attoparsec////
+A D/hs-base-unicode-symbols////
 A D/hs-base64-bytestring////
 A D/hs-binary////
 A D/hs-blaze-builder////
@@ -1540,6 +1547,7 @@ A D/libadplug////
 A D/libalac////
 A D/libanaculus-sharp////
 A D/libao-nas////
+A D/libappindicator////
 A D/libargp////
 A D/libassa////
 A D/libassuan////
@@ -1567,6 +1575,12 @@ A D/libdbi-mysql////
 A D/libdbi-pgsql////
 A D/libdbi-sqlite////
 A D/libdbi-sqlite3////
+A D/libdbusmenu-glib////
+A D/libdbusmenu-gtk////
+A D/libdbusmenu-gtk-doc////
+A D/libdbusmenu-gtk3////
+A D/libdbusmenu-jsonloader////
+A D/libdbusmenu-tools////
 A D/libdca////
 A D/libdfui////
 A D/libdiscid////
@@ -1607,6 +1621,7 @@ A D/libiberty////
 A D/libic////
 A D/libidn////
 A D/libindicator-gtk2////
+A D/libindicator3////
 A D/libinstaller////
 A D/libisoburn////
 A D/libisofs////
@@ -1624,6 +1639,8 @@ A D/liblinebreak////
 A D/liblognorm////
 A D/libmaa////
 A D/libmatchbox////
+A D/libmatekbd////
+A D/libmateweather////
 A D/libmatroska////
 A D/libmcs////
 A D/libmemcache////
@@ -1648,6 +1665,7 @@ A D/libobby////
 A D/libogg-nightly////
 A D/liboggz////
 A D/libol////
+A D/liboobs////
 A D/libootool////
 A D/libopencdk////
 A D/libopensync-plugin-gnokii////
@@ -1682,7 +1700,6 @@ A D/libssh////
 A D/libssh2////
 A D/libstatgrab////
 A D/libtasn1////
-A D/libtermkey////
 A D/libticables////
 A D/libticables2////
 A D/libticalcs////
@@ -1692,7 +1709,6 @@ A D/libtifiles////
 A D/libtifiles2////
 A D/libtlen////
 A D/libtorrent////
-A D/libunibilium////
 A D/libunique3////
 A D/libunistring////
 A D/libupnp////
@@ -1730,6 +1746,7 @@ A D/lilypond20////
 A D/lincity-ng////
 A D/lincvs////
 A D/linux-kernel-sources////
+A D/linuxigd////
 A D/linuxigd-current////
 A D/linuxsms////
 A D/liquidwar////
@@ -1792,6 +1809,7 @@ A D/maradns////
 A D/marathon-evil////
 A D/marathon-trilogy////
 A D/marble////
+A D/marco////
 A D/marisa////
 A D/matchbox-common////
 A D/matchbox-desktop////
@@ -1800,6 +1818,35 @@ A D/matchbox-panel////
 A D/matchbox-panel-manager////
 A D/matchbox-themes-extra////
 A D/matchbox-wm////
+A D/mate////
+A D/mate-applets////
+A D/mate-backgrounds////
+A D/mate-calc////
+A D/mate-common////
+A D/mate-control-center////
+A D/mate-desktop////
+A D/mate-dialogs////
+A D/mate-icon-theme////
+A D/mate-icon-theme-faenza////
+A D/mate-indicator-applet////
+A D/mate-media////
+A D/mate-menus////
+A D/mate-netbook////
+A D/mate-netspeed////
+A D/mate-notification-daemon////
+A D/mate-panel////
+A D/mate-polkit////
+A D/mate-power-manager////
+A D/mate-screensaver////
+A D/mate-sensors-applet////
+A D/mate-session-manager////
+A D/mate-settings-daemon////
+A D/mate-system-monitor////
+A D/mate-system-tools////
+A D/mate-terminal////
+A D/mate-themes////
+A D/mate-user-share////
+A D/mate-utils////
 A D/mathomatic////
 A D/mawk////
 A D/mc////
@@ -1887,6 +1934,7 @@ A D/motoya-fonts////
 A D/mowgli////
 A D/mozc-server////
 A D/mozc-tool////
+A D/mozo////
 A D/mp3blaster////
 A D/mp3gain////
 A D/mpc////
@@ -2022,6 +2070,7 @@ A D/openbox3////
 A D/openbsd-input-ws////
 A D/openbsd-ntpd////
 A D/opencobol////
+A D/openconnect////
 A D/opencsg////
 A D/openct////
 A D/opencv////
@@ -2068,6 +2117,7 @@ A D/openoffice2-bin-tn////
 A D/openoffice2-bin-ts////
 A D/openoffice2-bin-xh////
 A D/openoffice2-bin-zu////
+A D/openpgm////
 A D/openresolv////
 A D/opensaml2////
 A D/opensc-signer////
@@ -2418,6 +2468,7 @@ A D/p5-XML-Stream////
 A D/p5-YAML-Syck////
 A D/p5-accessors-fast////
 A D/p5-aliased////
+A D/p5-autovivification////
 A D/p5-biblatex-biber////
 A D/p5-cabocha////
 A D/p5-clutter////
@@ -2541,13 +2592,11 @@ A D/pidgin////
 A D/pine-pgp-filters////
 A D/pinentry////
 A D/pipestatus////
-A D/piwik////
 A D/pixel-sagas-st////
 A D/pixieplus////
 A D/pixman////
 A D/pkcs11-helper////
 A D/pkg-config////
-A D/pkg15////
 A D/pkg_cmp_summary////
 A D/pkg_distclean////
 A D/pkg_install-testing////
@@ -2573,6 +2622,7 @@ A D/pkgsrc-status-dependencies////
 A D/planner////
 A D/plink////
 A D/plinkseq////
+A D/pluma////
 A D/pnet////
 A D/pnetC////
 A D/pnetlib////
@@ -2585,6 +2635,7 @@ A D/poedit////
 A D/polarssl////
 A D/policyd-weight////
 A D/policykit////
+A D/polkit////
 A D/pop-before-smtp////
 A D/poppler////
 A D/poppler-qt5////
@@ -2681,7 +2732,6 @@ A D/py-Xlib////
 A D/py-ZODB////
 A D/py-ZopeInterface////
 A D/py-adns////
-A D/py-affine////
 A D/py-altgraph////
 A D/py-anyjson////
 A D/py-ao////
@@ -2706,6 +2756,7 @@ A D/py-cjkcodecs////
 A D/py-cjson////
 A D/py-clutter////
 A D/py-colorama////
+A D/py-configargparse////
 A D/py-configobj////
 A D/py-corebio////
 A D/py-couchdb////
@@ -2718,7 +2769,6 @@ A D/py-daemon////
 A D/py-dateutil////
 A D/py-dbxml////
 A D/py-decorator////
-A D/py-dependenpy////
 A D/py-divmod-nevow////
 A D/py-django////
 A D/py-django-tagging////
@@ -2731,7 +2781,6 @@ A D/py-elementtree////
 A D/py-empy////
 A D/py-ezPyCrypto////
 A D/py-f2py2e////
-A D/py-fedmsg////
 A D/py-flakes////
 A D/py-fonttools////
 A D/py-foolscap////
@@ -2754,7 +2803,6 @@ A D/py-h5py////
 A D/py-httplib2////
 A D/py-icalendar////
 A D/py-imgSeek////
-A D/py-imreg-dft////
 A D/py-ipaddr////
 A D/py-ipython////
 A D/py-itstool////
@@ -2762,7 +2810,6 @@ A D/py-jabber-msnt////
 A D/py-jsonlib////
 A D/py-kde4////
 A D/py-keyring////
-A D/py-kitchen////
 A D/py-kombu////
 A D/py-last////
 A D/py-libdisassemble////
@@ -2778,7 +2825,6 @@ A D/py-logilab-astng////
 A D/py-logilab-common////
 A D/py-logilab-doctools////
 A D/py-logilab-lint////
-A D/py-m2ext////
 A D/py-mad////
 A D/py-magic////
 A D/py-mako////
@@ -2787,8 +2833,6 @@ A D/py-mecab////
 A D/py-memcached////
 A D/py-ming////
 A D/py-mmpython////
-A D/py-moksha-common////
-A D/py-moksha-hub////
 A D/py-mongo////
 A D/py-mpich4py////
 A D/py-mpmath////
@@ -2857,13 +2901,10 @@ A D/py-twisted-web////
 A D/py-twisted-words////
 A D/py-twisted-xish////
 A D/py-twisted-zopeinterface////
-A D/py-txWS////
-A D/py-txZMQ////
 A D/py-tz////
 A D/py-uwsgi////
 A D/py-uwsgitop////
 A D/py-van.testing////
-A D/py-vcversioner////
 A D/py-vorbis////
 A D/py-vtkmodule////
 A D/py-webob////
@@ -2893,6 +2934,7 @@ A D/pyorbit////
 A D/pypcap////
 A D/pysolfc////
 A D/pysvn////
+A D/python-caja////
 A D/python23////
 A D/python25////
 A D/python27////
@@ -2953,6 +2995,7 @@ A D/rabbit////
 A D/rabbitmq////
 A D/rabbitmq-c////
 A D/radare////
+A D/radare2////
 A D/radicale////
 A D/radmind////
 A D/rainbowcrack////
@@ -3194,6 +3237,7 @@ A D/speedtouch131////
 A D/speex-devel////
 A D/sphinxsearch////
 A D/spice-protocol////
+A D/spidermonkey17////
 A D/spin////
 A D/sqlitebrowser////
 A D/sqlrelay////
@@ -3234,8 +3278,10 @@ A D/swi-prolog-packages////
 A D/swift////
 A D/swig2////
 A D/sylpheed-gtk2////
+A D/sysjail////
 A D/syslog-ng////
 A D/sysmon////
+A D/system-tools-backends////
 A D/tacacs-shrubbery////
 A D/tads////
 A D/taglib-extras////
@@ -3371,7 +3417,9 @@ A D/tor////
 A D/tortoisehg////
 A D/totem////
 A D/trac////
+A D/trac-plugins-AccountManager////
 A D/trac-plugins-WebAdmin////
+A D/trac-plugins-excelviewer////
 A D/trac-plugins-fullblog////
 A D/traceroute-nanog////
 A D/transmission////
@@ -3382,6 +3430,7 @@ A D/treecc////
 A D/trickle////
 A D/ts////
 A D/tsclient////
+A D/tscreen////
 A D/tsocks////
 A D/tumble////
 A D/turba////
@@ -3407,6 +3456,7 @@ A D/uniplate////
 A D/unrealircd////
 A D/unshield////
 A D/up-imapproxy////
+A D/upower////
 A D/ups-nut////
 A D/upx////
 A D/uqm////
@@ -3446,6 +3496,7 @@ A D/vncviewer4////
 A D/vnstat////
 A D/vorbisgain////
 A D/vpnc////
+A D/vpnc-script////
 A D/vte////
 A D/vtk////
 A D/vtk-data////
@@ -3628,6 +3679,7 @@ A D/xvidcap////
 A D/xvidtune////
 A D/xvinfo////
 A D/xvkbd////
+A D/xvmware////
 A D/xwpe////
 A D/xxkb////
 A D/xyssl////
@@ -3698,6 +3750,7 @@ R D/yabause////
 R D/xyssl////
 R D/xxkb////
 R D/xwpe////
+R D/xvmware////
 R D/xvkbd////
 R D/xvinfo////
 R D/xvidtune////
@@ -3880,6 +3933,7 @@ R D/vtk-docs////
 R D/vtk-data////
 R D/vtk////
 R D/vte////
+R D/vpnc-script////
 R D/vpnc////
 R D/vorbisgain////
 R D/vnstat////
@@ -3919,6 +3973,7 @@ R D/urbanrenewal////
 R D/uqm////
 R D/upx////
 R D/ups-nut////
+R D/upower////
 R D/up-imapproxy////
 R D/unshield////
 R D/unrealircd////
@@ -3944,6 +3999,7 @@ R D/tuxmath////
 R D/turba////
 R D/tumble////
 R D/tsocks////
+R D/tscreen////
 R D/tsclient////
 R D/ts////
 R D/trickle////
@@ -3954,7 +4010,9 @@ R D/trapproto////
 R D/transmission////
 R D/traceroute-nanog////
 R D/trac-plugins-fullblog////
+R D/trac-plugins-excelviewer////
 R D/trac-plugins-WebAdmin////
+R D/trac-plugins-AccountManager////
 R D/trac////
 R D/totem////
 R D/tortoisehg////
@@ -4090,8 +4148,10 @@ R D/tagsoup////
 R D/taglib-extras////
 R D/tads////
 R D/tacacs-shrubbery////
+R D/system-tools-backends////
 R D/sysmon////
 R D/syslog-ng////
+R D/sysjail////
 R D/sylpheed-gtk2////
 R D/swig2////
 R D/swift////
@@ -4132,6 +4192,7 @@ R D/squidview////
 R D/sqlrelay////
 R D/sqlitebrowser////
 R D/spin////
+R D/spidermonkey17////
 R D/spice-protocol////
 R D/sphinxsearch////
 R D/speex-devel////
@@ -4373,6 +4434,7 @@ R D/raine////
 R D/rainbowcrack////
 R D/radmind////
 R D/radicale////
+R D/radare2////
 R D/radare////
 R D/rabbitmq-c////
 R D/rabbitmq////
@@ -4433,6 +4495,7 @@ R D/python31////
 R D/python27////
 R D/python25////
 R D/python23////
+R D/python-caja////
 R D/pysvn////
 R D/pysolfc////
 R D/pypcap////
@@ -4610,6 +4673,7 @@ R D/py-country////
 R D/py-couchdb////
 R D/py-corebio////
 R D/py-configobj////
+R D/py-configargparse////
 R D/py-colorama////
 R D/py-clutter////
 R D/py-cjson////
@@ -4730,6 +4794,7 @@ R D/pornview////
 R D/poppler-qt5////
 R D/poppler////
 R D/pop-before-smtp////
+R D/polkit////
 R D/policykit////
 R D/policyd-weight////
 R D/polarssl////
@@ -4742,6 +4807,7 @@ R D/poco////
 R D/pnetlib////
 R D/pnetC////
 R D/pnet////
+R D/pluma////
 R D/plinkseq////
 R D/plink////
 R D/planner////
@@ -4895,6 +4961,7 @@ R D/p5-constant-def////
 R D/p5-clutter////
 R D/p5-cabocha////
 R D/p5-biblatex-biber////
+R D/p5-autovivification////
 R D/p5-aliased////
 R D/p5-accessors-fast////
 R D/p5-YAML-Syck////
@@ -5245,6 +5312,7 @@ R D/openscenegraph////
 R D/opensc-signer////
 R D/opensaml2////
 R D/openresolv////
+R D/openpgm////
 R D/openoffice2-bin-zu////
 R D/openoffice2-bin-xh////
 R D/openoffice2-bin-ts////
@@ -5291,6 +5359,7 @@ R D/opendesktop-fonts////
 R D/opencv////
 R D/openct////
 R D/opencsg////
+R D/openconnect////
 R D/opencobol////
 R D/openbsd-ntpd////
 R D/openbsd-input-ws////
@@ -5426,6 +5495,7 @@ R D/mpdscribble////
 R D/mpc////
 R D/mp3gain////
 R D/mp3blaster////
+R D/mozo////
 R D/mozc-tool////
 R D/mozc-server////
 R D/mowgli////
@@ -5513,6 +5583,35 @@ R D/mcabber////
 R D/mc////
 R D/mawk////
 R D/mathomatic////
+R D/mate-utils////
+R D/mate-user-share////
+R D/mate-themes////
+R D/mate-terminal////
+R D/mate-system-tools////
+R D/mate-system-monitor////
+R D/mate-settings-daemon////
+R D/mate-session-manager////
+R D/mate-sensors-applet////
+R D/mate-screensaver////
+R D/mate-power-manager////
+R D/mate-polkit////
+R D/mate-panel////
+R D/mate-notification-daemon////
+R D/mate-netspeed////
+R D/mate-netbook////
+R D/mate-menus////
+R D/mate-media////
+R D/mate-indicator-applet////
+R D/mate-icon-theme-faenza////
+R D/mate-icon-theme////
+R D/mate-dialogs////
+R D/mate-desktop////
+R D/mate-control-center////
+R D/mate-common////
+R D/mate-calc////
+R D/mate-backgrounds////
+R D/mate-applets////
+R D/mate////
 R D/matchbox-wm////
 R D/matchbox-themes-extra////
 R D/matchbox-panel-manager////
@@ -5521,6 +5620,7 @@ R D/matchbox-nest////
 R D/matchbox-desktop////
 R D/matchbox-common////
 R D/marisa////
+R D/marco////
 R D/marble////
 R D/marathon-trilogy////
 R D/marathon-evil////
@@ -5583,6 +5683,7 @@ R D/lirc////
 R D/liquidwar////
 R D/linuxsms////
 R D/linuxigd-current////
+R D/linuxigd////
 R D/linux-kernel-sources////
 R D/lincvs////
 R D/lincity-ng////
@@ -5663,6 +5764,7 @@ R D/libosip222////
 R D/libopensync-plugin-gnokii////
 R D/libopencdk////
 R D/libootool////
+R D/liboobs////
 R D/libol////
 R D/liboggz////
 R D/libogg-nightly////
@@ -5687,6 +5789,8 @@ R D/libmemcached////
 R D/libmemcache////
 R D/libmcs////
 R D/libmatroska////
+R D/libmateweather////
+R D/libmatekbd////
 R D/libmatchbox////
 R D/libmaa////
 R D/liblognorm////
@@ -5704,6 +5808,7 @@ R D/libixp////
 R D/libisofs////
 R D/libisoburn////
 R D/libinstaller////
+R D/libindicator3////
 R D/libindicator-gtk2////
 R D/libidn////
 R D/libic////
@@ -5744,6 +5849,12 @@ R D/libdlna////
 R D/libdiscid////
 R D/libdfui////
 R D/libdca////
+R D/libdbusmenu-tools////
+R D/libdbusmenu-jsonloader////
+R D/libdbusmenu-gtk3////
+R D/libdbusmenu-gtk-doc////
+R D/libdbusmenu-gtk////
+R D/libdbusmenu-glib////
 R D/libdbi-sqlite3////
 R D/libdbi-sqlite////
 R D/libdbi-pgsql////
@@ -5771,6 +5882,7 @@ R D/libasyncns////
 R D/libassuan////
 R D/libassa////
 R D/libargp////
+R D/libappindicator////
 R D/libao-nas////
 R D/libanaculus-sharp////
 R D/libalac////
@@ -6287,6 +6399,7 @@ R D/hs-blaze-html////
 R D/hs-blaze-builder////
 R D/hs-binary////
 R D/hs-base64-bytestring////
+R D/hs-base-unicode-symbols////
 R D/hs-attoparsec////
 R D/hs-ansi-terminal////
 R D/hs-aeson////
@@ -6524,6 +6637,7 @@ R D/gobject-introspecification////
 R D/gobby////
 R D/gob2////
 R D/gnutls////
+R D/gnuplot////
 R D/gnupg-1.9////
 R D/gnumeric////
 R D/gnucash-docs////
@@ -6541,6 +6655,7 @@ R D/gnome-spell////
 R D/gnome-speech////
 R D/gnome-pilot////
 R D/gnome-mplayer////
+R D/gnome-main-menu////
 R D/gnome-commander////
 R D/gnome-chemistry-utils////
 R D/gnome-acme////
@@ -6778,8 +6893,10 @@ R D/eq-xmms////
 R D/epsg////
 R D/epplets////
 R D/epm////
+R D/eom////
 R D/entropy////
 R D/ent////
+R D/engrampa////
 R D/engine-pkcs11////
 R D/endeavour////
 R D/emesene////
@@ -6866,6 +6983,7 @@ R D/dict-freedict-eng-ar////
 R D/dict-client////
 R D/dia2code////
 R D/di////
+R D/dhisd////
 R D/dhex////
 R D/dhcpcd-gtk////
 R D/dhcpcd-dbus////
@@ -6912,6 +7030,7 @@ R D/d2x////
 R D/cython////
 R D/cyrus-imapd22////
 R D/cyrus-imapd////
+R D/cwdiff////
 R D/cvsutils////
 R D/cvsup-mirror////
 R D/cvsup-gui////
@@ -6939,7 +7058,9 @@ R D/couchdb////
 R D/corkscrew////
 R D/coreutils////
 R D/coq////
+R D/consolekit////
 R D/conserver8////
+R D/connect////
 R D/conky////
 R D/conglomerate////
 R D/confuse////
@@ -7016,6 +7137,9 @@ R D/calibre////
 R D/calcurse-2.8////
 R D/cal3d_cally////
 R D/cal3d////
+R D/caja-extensions////
+R D/caja-dropbox////
+R D/caja////
 R D/cairo////
 R D/cacti-spine////
 R D/cacti-plugin-arch////
@@ -7094,6 +7218,7 @@ R D/autocutsel////
 R D/audacity12////
 R D/auc-current////
 R D/aubio////
+R D/atril////
 R D/atque////
 R D/atk-devel////
 R D/ati-xfree86-bin-init////
@@ -7282,7 +7407,6 @@ R D/MyServer////
 R D/MozillaFirebird-bin-xft2////
 R D/MissingH////
 R D/MesaLib-dri////
-R D/MesaLib////
 R D/Mesa////
 R D/Lucu////
 R D/LuaJIT////

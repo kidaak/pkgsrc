@@ -23,4 +23,5 @@
 /patch-ext_xmlrpc_libxmlrpc_xmlrpc.c/1.1/Thu Oct 23 16:18:47 2014//
 /patch-Zend_zend__ini.h/1.1/Fri Nov 21 14:13:51 2014//
 /patch-main_php.h/1.1/Fri Nov 21 14:13:51 2014//
+/patch-sapi_fpm_fpm_fpm__sockets.c/1.1/Thu Mar  5 11:16:28 2015//
 D

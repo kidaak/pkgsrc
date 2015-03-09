@@ -1,8 +1,8 @@
-# $NetBSD: Makefile,v 1.94 2015/02/21 10:44:14 tnn Exp $
+# $NetBSD: Makefile,v 1.97 2015/03/02 03:53:26 tnn Exp $
 
 DISTNAME=	openjdk-1.7.76-20150127
 PKGNAME=	openjdk7-1.7.76
-PKGREVISION=	2
+PKGREVISION=	3
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_LOCAL:=openjdk7/}
 EXTRACT_SUFX=	.tar.bz2
@@ -14,6 +14,8 @@ LICENSE=	gnu-gpl-v2
 
 DISTFILES=	${DEFAULT_DISTFILES}
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
+
+DIST_SUBDIR=	openjdk7
 
 JAVA_NAME=	openjdk7
 JAVA_HOME=	${PREFIX}/java/${JAVA_NAME}
@@ -51,9 +53,6 @@ MAKE_ENV+=	HOTSPOT_BUILD_JOBS=${MAKE_JOBS}
 MAKE_ENV+=	HOTSPOT_BUILD_USER=pkgsrc
 MAKE_ENV+=	NO_DOCS=true
 MAKE_ENV+=	SKIP_COMPARE_IMAGES=true
-
-ALL_ENV+=	PKGSRC_BOOT_JDK_JVMARGS="-XX:+UseSerialGC -Xmx768M"
-ALL_ENV+=	PKGSRC_BOOT_JDK_TOOLARGS="-J-XX:+UseSerialGC -J-Xmx768M"
 
 # Avoid build errors when JAVA_HOME and CLASSPATH are defined by user.
 MAKE_ENV+=	JAVA_HOME=
@@ -107,6 +106,9 @@ SUBST_STAGE.mapfix2=	pre-build
 SUBST_FILES.mapfix2=	jdk/make/com/sun/java/pack/mapfile-vers
 SUBST_SED.mapfix2=	-e '/environ/d'
 .endif
+
+CFLAGS+=	-D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+CXXFLAGS+=	-D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
 .if !empty(PKGSRC_COMPILER:Mclang)
 _WRAP_EXTRA_ARGS.CXX+=	-Wno-parentheses -Wno-sign-conversion \
@@ -172,25 +174,14 @@ PLIST.alsa=	yes
 
 post-extract:
 	chmod +x ${ANT_BIN}/ant
-	cd ${WRKDIR}/${ICEDTEA_WEB}/plugin/icedteanp/java && pax -rw . \
-	  ${WRKSRC}/jdk/src/share/classes
-	cd ${WRKDIR}/${ICEDTEA_WEB}/netx && pax -rw . \
-	  ${WRKSRC}/jdk/src/share/classes
-#	cd ${WRKSRC} && patch -s -p1 < ${WRKDIR}/${ICEDTEA}/patches/rhino.patch
-.if ${OPSYS} == "SunOS"
-	${MKDIR} ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/include ${ALT_BOOTDIR}/include
-	${LN} -s ${JDK_BOOTDIR}/lib ${ALT_BOOTDIR}/lib
-	${LN} -s ${JDK_BOOTDIR}/bin/java ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/javac ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/javah ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/javap ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/idlj ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/jar ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/native2ascii ${ALT_BOOTDIR}/bin
-	${LN} -s ${JDK_BOOTDIR}/bin/rmic ${ALT_BOOTDIR}/bin
-.elif ${OPSYS} == "NetBSD" && exists(${.CURDIR}/libs)
-	cp ${.CURDIR}/libs/lib* ${ALT_BOOTDIR}/jre/lib/${LIBDIR_ARCH}
+	${LN} -s mapfile-i586 ${WRKSRC}/jdk/make/java/main/java/mapfile-arm
+# These libs are bundled w/ the netbsd-7 bootstrap to facilitate building with
+# MKLLVM=yes / MKGCC=no. Nuke them from bootstrap if they are present in base.
+.if exists(/lib/libgcc_s.so.1)
+	${RM} -f ${ALT_BOOTDIR}/jre/lib/${LIBDIR_ARCH}/libgcc_s.so*
+.endif
+.if exists(/usr/lib/libstdc++.so.7)
+	${RM} -f ${ALT_BOOTDIR}/jre/lib/${LIBDIR_ARCH}/libstdc++.so*
 .endif
 
 do-build: ${WRKDIR}/stage3-done

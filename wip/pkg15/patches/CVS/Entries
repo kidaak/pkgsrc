@@ -1,4 +1,7 @@
 /patch-libpkg_pkg__elf.c/1.1/Fri Feb 20 13:30:17 2015//
 /patch-libpkg_pkg__status.c/1.1/Sat Feb 21 12:21:00 2015//
 /patch-libpkg_private_elf__tables.h/1.1/Fri Feb 20 13:30:17 2015//
+/patch-compat_bsd__compat.h/1.1/Mon Feb 23 18:24:20 2015//
+/patch-compat_file__at.c/1.1/Mon Feb 23 18:24:21 2015//
+/patch-libpkg_pkg.h.in/1.1/Mon Feb 23 18:24:21 2015//
 D

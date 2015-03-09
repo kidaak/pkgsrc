@@ -59,4 +59,6 @@
 /patch-xfixes_select.c/1.1/Sun Dec 21 16:03:17 2014//
 /patch-xkb_xkb.c/1.1/Wed Feb 11 09:43:39 2015//
 /patch-hw_xfree86_dri2_dri2.c/1.1/Sun Feb 22 11:08:45 2015//
+/patch-randr_randr.c/1.1/Tue Mar  3 00:55:58 2015//
+/patch-randr_randrstr.h/1.1/Tue Mar  3 00:55:58 2015//
 D

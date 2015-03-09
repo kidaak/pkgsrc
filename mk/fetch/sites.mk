@@ -1,4 +1,4 @@
-# $NetBSD: sites.mk,v 1.116 2015/02/21 14:46:08 mef Exp $
+# $NetBSD: sites.mk,v 1.125 2015/03/09 13:10:45 tnn Exp $
 #
 # This Makefile fragment defines read-only MASTER_SITE_* variables
 # representing some well-known master distribution sites for software.
@@ -21,6 +21,9 @@ MASTER_SITE_GNU+=       \
 	ftp://mirrors.kernel.org/gnu/ \
 	ftp://ftp.lip6.fr/pub/gnu/ \
 	http://gd.tuwien.ac.at/gnu/gnusrc/
+
+MASTER_SITE_GITHUB+=    \
+	https://github.com/
 
 MASTER_SITE_GNUSTEP+=   \
 	ftp://ftp.gnustep.org/pub/gnustep/
@@ -109,11 +112,8 @@ MASTER_SITE_MOZILLA_ALL+=   \
 MASTER_SITE_MOZILLA+=	\
 	http://releases.mozilla.org/pub/mozilla.org/ \
 	http://mirror.atlanticmetro.net/mozilla/ \
-	ftp://releases.mozilla.org/pub/mozilla.org/ \
-	http://mirror.yandex.ru/mozilla/ \
 	http://ftp.cvut.cz/mozilla/ \
 	http://ftp.heanet.ie/mirrors/ftp.mozilla.org/pub/mozilla.org/ \
-	http://mozilla.mirror.ac.za/ \
 	http://mirror.waia.asn.au/pub/mozilla/ \
 	http://download-origin.cdn.mozilla.net/pub/mozilla.org/
 
@@ -125,6 +125,7 @@ MASTER_SITE_MOZILLA_ESR+=	\
 	ftp://ftp.mozilla.org/pub/mozilla.org/
 
 MASTER_SITE_XEMACS+=    \
+	http://ftp.xemacs.org/pub/xemacs/ \
 	ftp://ftp.xemacs.org/pub/xemacs/ \
 	ftp://ftp.dti.ad.jp/pub/unix/editor/xemacs/ \
 	ftp://ftp.pasteur.fr/pub/computing/xemacs/ \
@@ -303,12 +304,10 @@ MASTER_SITE_XORG+= \
 	ftp://mirror.switch.ch/mirror/X11/pub/individual/
 
 MASTER_SITE_FREEBSD+= \
-	ftp://ftp.FreeBSD.org/pub/FreeBSD/distfiles/ \
-	ftp://ftp.jp.FreeBSD.org/pub/FreeBSD/distfiles/
+	http://distcache.FreeBSD.org/ports-distfiles/
 
 MASTER_SITE_FREEBSD_LOCAL+= \
-	ftp://ftp.FreeBSD.org/pub/FreeBSD/ports/local-distfiles/ \
-	ftp://ftp.jp.FreeBSD.org/pub/FreeBSD/ports/local-distfiles/
+	http://distcache.FreeBSD.org/local-distfiles/
 
 MASTER_SITE_NETLIB+= \
 	http://netlib.org/ \
@@ -329,7 +328,7 @@ MASTER_SITE_HASKELL_HACKAGE+=	\
 
 # The primary backup site.
 MASTER_SITE_BACKUP?=	\
-	ftp://ftp.fi.NetBSD.org/pub/NetBSD/packages/distfiles/ \
+	ftp://ftp.fr.NetBSD.org/pub/pkgsrc/distfiles/ \
+	http://ftp.fr.NetBSD.org/pub/pkgsrc/distfiles/ \
 	ftp://ftp.NetBSD.org/pub/pkgsrc/distfiles/ \
-	http://ftp.NetBSD.org/pub/pkgsrc/distfiles/ \
-	ftp://ftp.FreeBSD.org/pub/FreeBSD/distfiles/
+	http://ftp.NetBSD.org/pub/pkgsrc/distfiles/

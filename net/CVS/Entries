@@ -612,7 +612,6 @@ D/rabbitmq////
 D/p5-Net-Google-AuthSub////
 D/modpcap////
 D/knock////
-D/samba35////
 D/pear-Net_IDNA2////
 D/quvi////
 D/py-suds////
@@ -798,4 +797,7 @@ D/iperf3////
 D/p5-File-RsyncP////
 D/ruby-netrc////
 D/tigervnc////
-/Makefile/1.1060/Sat Feb 21 20:25:58 2015//
+/Makefile/1.1064/Mon Mar  9 22:02:25 2015//
+D/openconnect////
+D/p5-Net-OpenID-Common////
+D/vpnc-script////

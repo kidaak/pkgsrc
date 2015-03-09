@@ -55,7 +55,6 @@ D/qcad-manual-de////
 D/qcad-manual-en////
 D/qcad-manual-hu////
 D/qcad-partlibrary////
-D/lc////
 D/nelma////
 D/adms////
 D/freehdl////
@@ -65,5 +64,5 @@ D/ghdl////
 D/kicad////
 D/kicad-doc////
 D/kicad-lib////
-/Makefile/1.80/Thu May 22 01:04:16 2014//
 D/diylc////
+/Makefile/1.81/Mon Mar  9 22:00:21 2015//

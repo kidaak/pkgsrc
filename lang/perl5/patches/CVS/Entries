@@ -14,10 +14,8 @@
 /patch-ac/1.19/Wed Jun  4 01:09:25 2014//
 /patch-ext_Errno_Errno__pm.PL/1.1/Sat Jun  7 11:57:34 2014//
 /patch-install__lib.pl/1.1/Sat Jun  7 11:58:39 2014//
-/patch-ca/1.21/Mon Jun  9 01:05:52 2014//
-/patch-hints_netbsd.sh/1.9/Wed Aug 13 01:03:13 2014//
-/patch-dist_Data-Dumper_Dumper.pm/1.1/Mon Sep 29 11:36:01 2014//
-/patch-dist_Data-Dumper_Dumper.xs/1.1/Mon Sep 29 11:36:01 2014//
 /patch-Makefile.SH/1.3/Thu Oct  2 01:04:08 2014//
 /patch-hints_darwin.sh/1.5/Sun Nov 23 02:16:39 2014//
+/patch-ca/1.22/Mon Mar  9 22:01:17 2015//
+/patch-hints_netbsd.sh/1.10/Mon Mar  9 22:01:17 2015//
 D

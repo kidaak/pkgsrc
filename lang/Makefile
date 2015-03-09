@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.400 2015/02/08 08:42:31 tnn Exp $
+# $NetBSD: Makefile,v 1.403 2015/03/08 17:19:30 taca Exp $
 #
 
 COMMENT=	Programming languages
@@ -102,6 +102,8 @@ SUBDIR+=	kaffe-x11
 SUBDIR+=	kali
 SUBDIR+=	konoha
 SUBDIR+=	ksi
+SUBDIR+=	libLLVM
+SUBDIR+=	libLLVM34
 SUBDIR+=	librep
 SUBDIR+=	libtcl-nothread
 SUBDIR+=	likepython
@@ -133,7 +135,6 @@ SUBDIR+=	oo2c
 SUBDIR+=	open-cobol-ce
 SUBDIR+=	opencobol
 SUBDIR+=	openjdk7
-SUBDIR+=	openjdk7-bin
 SUBDIR+=	openjdk8
 SUBDIR+=	opensource-cobol
 SUBDIR+=	ossp-js
@@ -190,6 +191,8 @@ SUBDIR+=	ruby200
 SUBDIR+=	ruby200-base
 SUBDIR+=	ruby21
 SUBDIR+=	ruby21-base
+SUBDIR+=	ruby22
+SUBDIR+=	ruby22-base
 SUBDIR+=	runawk
 SUBDIR+=	sablevm
 SUBDIR+=	sablevm-classpath

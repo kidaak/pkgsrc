@@ -1,4 +1,4 @@
-# $NetBSD: rubyversion.mk,v 1.132 2015/02/20 15:43:10 riastradh Exp $
+# $NetBSD: rubyversion.mk,v 1.137 2015/03/08 16:17:01 taca Exp $
 #
 
 # This file determines which Ruby version is used as a dependency for
@@ -41,8 +41,8 @@
 # RUBY_VERSION_SUPPORTED
 #	The Ruby versions that are acceptable for the package.
 #
-#		Possible values: 18 193 200 21
-#		Default: 200 193 18 21
+#		Possible values: 18 193 200 21 22
+#		Default: 200 193 21
 #
 # RUBY_NOVERSION
 #	If "Yes", the package dosen't depend on any version of Ruby, such
@@ -230,14 +230,14 @@ RUBY18_VERSION=		1.8.7
 RUBY193_VERSION=	1.9.3
 RUBY200_VERSION=	2.0.0
 RUBY21_VERSION=		2.1.5
-RUBY22_VERSION=		2.2.0
+RUBY22_VERSION=		2.2.1
 
 # patch
 RUBY18_PATCHLEVEL=	pl374
 RUBY193_PATCHLEVEL=	p551
-RUBY200_PATCHLEVEL=	p598
+RUBY200_PATCHLEVEL=	p643
 #RUBY21_PATCHLEVEL=	p273
-#RUBY22_PATCHLEVEL=	p0
+#RUBY22_PATCHLEVEL=	p85
 
 # current API compatible version; used for version of shared library
 RUBY18_API_VERSION=	1.8.7
@@ -247,7 +247,7 @@ RUBY21_API_VERSION=	2.1.0
 RUBY22_API_VERSION=	2.2.0
 
 # pkgsrc's rubygems's version
-RUBY_GEMS_PKGSRC_VERS=	2.4.5
+RUBY_GEMS_PKGSRC_VERS=	2.4.6
 
 # pkgsrc's rdoc's version
 RUBY_RDOC_PKGSRC_VERS=	4.2.0
@@ -255,7 +255,7 @@ RUBY_RDOC_PKGSRC_VERS=	4.2.0
 #
 RUBY_VERSION_DEFAULT?=	200
 
-RUBY_VERSION_SUPPORTED?= 200 193 18 21 # 22
+RUBY_VERSION_SUPPORTED?= 200 193 21 # 22
 
 .if defined(RUBY_VERSION_REQD)
 . for rv in ${RUBY_VERSION_SUPPORTED}
@@ -322,6 +322,8 @@ RUBY_RDOC_VERSION=	4.1.0
 RUBY_RAKE_VERSION=	10.1.0
 RUBY_JSON_VERSION=	1.8.1
 
+RUBY_SUFFIX=	${_RUBY_VER_MAJOR}${_RUBY_VER_MINOR}
+
 .elif ${RUBY_VER} == "22"
 RUBY_VERSION=		${RUBY22_VERSION}
 RUBY_VERSION_FULL=	${RUBY_VERSION}
@@ -331,6 +333,8 @@ RUBY_GEMS_VERSION=	2.4.5
 RUBY_RDOC_VERSION=	4.2.0
 RUBY_RAKE_VERSION=	10.4.2
 RUBY_JSON_VERSION=	1.8.1
+
+RUBY_SUFFIX=	${_RUBY_VER_MAJOR}${_RUBY_VER_MINOR}
 
 .else
 PKG_FAIL_REASON+= "Unknown Ruby version specified: ${RUBY_VER}."
@@ -377,8 +381,12 @@ RUBY_PKGPREFIX?=	${RUBY_NAME}
 
 .if ${RUBY_VER} == "18"
 RUBY_VER_DIR=		${_RUBY_VER_MAJOR}.${_RUBY_VER_MINOR}
-.else
+.else 
+. if ${RUBY_VER} == "193" || ${RUBY_VER} == "200"
 RUBY_VER_DIR=		${RUBY_VERSION}
+. else
+RUBY_VER_DIR=		${RUBY_API_VERSION}
+. endif
 .endif
 
 .if empty(RUBY_NOVERSION:M[nN][oO])

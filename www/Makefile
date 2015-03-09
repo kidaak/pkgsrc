@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.1089 2015/02/19 15:29:06 taca Exp $
+# $NetBSD: Makefile,v 1.1092 2015/03/09 13:34:41 imil Exp $
 #
 
 COMMENT=	Packages related to the World Wide Web
@@ -540,7 +540,7 @@ SUBDIR+=	php-tiki6
 SUBDIR+=	php-tt-rss
 SUBDIR+=	php-tt-rss-fever-plugin
 SUBDIR+=	php-uploadprogress
-SUBDIR+=	php-zendoptimizerplus
+SUBDIR+=	php-zendopcache
 SUBDIR+=	phraseanet
 SUBDIR+=	phraseanet-indexer
 SUBDIR+=	pound
@@ -675,12 +675,12 @@ SUBDIR+=	ruby-em-http-request
 SUBDIR+=	ruby-erubis
 SUBDIR+=	ruby-faraday
 SUBDIR+=	ruby-fcgi
-SUBDIR+=	ruby-form_data
 SUBDIR+=	ruby-gnome2-webkit-gtk
 SUBDIR+=	ruby-gnome2-webkit-gtk2
 SUBDIR+=	ruby-htmlsplit
 SUBDIR+=	ruby-http
 SUBDIR+=	ruby-http-cookie
+SUBDIR+=	ruby-http-form_data
 SUBDIR+=	ruby-http_parser.rb
 SUBDIR+=	ruby-http_router
 SUBDIR+=	ruby-httpclient
