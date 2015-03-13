@@ -1,5 +1,5 @@
-/patch-pith_smkeys.c/1.1/Wed Apr 18 20:50:21 2012//
-/patch-imap_src_c-client_auth_gss.c/1.1/Wed Oct 10 19:49:07 2012//
-/patch-imap_src_osdep_unix_Makefile.gss/1.1/Wed Oct 10 19:49:07 2012//
-/patch-imap_src_osdep_unix_kerb_mit.c/1.1/Wed Oct 10 19:49:08 2012//
+/patch-imap_src_c-client_auth_gss.c/1.1/Fri Mar 13 21:11:25 2015//
+/patch-imap_src_osdep_unix_Makefile.gss/1.1/Fri Mar 13 21:11:25 2015//
+/patch-imap_src_osdep_unix_kerb_mit.c/1.1/Fri Mar 13 21:11:25 2015//
+/patch-pith_smkeys.c/1.1/Fri Mar 13 21:11:25 2015//
 D

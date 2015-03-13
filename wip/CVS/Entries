@@ -3197,7 +3197,6 @@ D/swarp////
 D/swfmill////
 D/swftools////
 D/swisseph////
-D/sword////
 D/sxemacs////
 D/sxid////
 D/sxiv////
@@ -3768,7 +3767,6 @@ D/verilog08////
 D/webkit-gtk3////
 D/xnee////
 D/zetacoin////
-/import-package.sh/1.12/Mon Feb 16 21:51:04 2015//
 D/Bear////
 D/SOPE////
 D/abiword////
@@ -3776,7 +3774,6 @@ D/aegisub////
 D/agfl////
 D/asio////
 D/asql////
-D/bibletime////
 D/bitchx////
 D/bochs////
 D/calypso-git////
@@ -3946,8 +3943,6 @@ D/py-moksha-hub////
 D/py-txWS////
 D/py-txZMQ////
 D/py-vcversioner////
-/Makefile/1.6106/Mon Mar  9 22:13:09 2015//
-/TODO/1.1166/Mon Mar  9 22:13:09 2015//
 D/MesaLib////
 D/acpica-utils-git////
 D/android-tools-adb////
@@ -3966,3 +3961,13 @@ D/ruby-kakasi////
 D/syncthing////
 D/syncthing-gtk////
 D/unicorn5hc////
+/Makefile/1.6110/Fri Mar 13 21:20:25 2015//
+/TODO/1.1167/Fri Mar 13 21:20:25 2015//
+/import-package.sh/1.12/Fri Mar 13 21:12:20 2015//
+D/go-backoff////
+D/go-fsnotify////
+D/libepoxy////
+D/py-vdirsyncer-git////
+D/smtpfeed////
+D/syncthing-inotify////
+D/mg-cvs////

@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.6106 2015/03/09 09:20:16 thomasklausner Exp $
+# $Id: Makefile,v 1.6110 2015/03/12 21:28:50 tnn2 Exp $
 
 COMMENT=	WIP pkgsrc packages
 
@@ -198,7 +198,6 @@ SUBDIR+=	beads
 SUBDIR+=	beanstalkd
 SUBDIR+=	beast
 SUBDIR+=	bfgminer
-SUBDIR+=	bibletime
 SUBDIR+=	bibliographer
 SUBDIR+=	bicho
 SUBDIR+=	bigdft
@@ -871,6 +870,8 @@ SUBDIR+=	gnuradio-wavelet
 SUBDIR+=	gnuradio-wxgui
 SUBDIR+=	gnuradio-zeromq
 SUBDIR+=	go
+SUBDIR+=	go-backoff
+SUBDIR+=	go-fsnotify
 SUBDIR+=	go-net
 SUBDIR+=	go-text
 SUBDIR+=	go-tools
@@ -1443,6 +1444,7 @@ SUBDIR+=	libee
 SUBDIR+=	libeio
 SUBDIR+=	libeio-cvs
 SUBDIR+=	libepc
+SUBDIR+=	libepoxy
 SUBDIR+=	libeps
 SUBDIR+=	libestr
 SUBDIR+=	libfm
@@ -3155,6 +3157,7 @@ SUBDIR+=	py-validictory
 SUBDIR+=	py-vanity
 SUBDIR+=	py-varify
 SUBDIR+=	py-vcversioner
+SUBDIR+=	py-vdirsyncer-git
 SUBDIR+=	py-vegas
 SUBDIR+=	py-version-control-tools
 SUBDIR+=	py-viper
@@ -3526,7 +3529,6 @@ SUBDIR+=	swfmill
 SUBDIR+=	swftools
 SUBDIR+=	swift-git
 SUBDIR+=	swisseph
-SUBDIR+=	sword
 SUBDIR+=	sxemacs
 SUBDIR+=	sxhkd
 SUBDIR+=	sxid
@@ -3544,6 +3546,7 @@ SUBDIR+=	synce-kde
 SUBDIR+=	synce-orange
 SUBDIR+=	syncthing
 SUBDIR+=	syncthing-gtk
+SUBDIR+=	syncthing-inotify
 SUBDIR+=	synfig
 SUBDIR+=	synfigstudio
 SUBDIR+=	sysklogd

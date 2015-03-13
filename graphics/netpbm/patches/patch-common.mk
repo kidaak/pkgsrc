@@ -1,4 +1,4 @@
-$NetBSD: patch-common.mk,v 1.1 2014/10/23 23:41:32 fhajny Exp $
+$NetBSD: patch-common.mk,v 1.3 2015/03/12 12:35:42 tnn Exp $
 
 Simplify install target.
 --- common.mk.orig	2014-09-08 21:26:50.000000000 +0000

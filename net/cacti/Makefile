@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.24 2014/08/23 12:50:25 adam Exp $
+# $NetBSD: Makefile,v 1.26 2015/03/11 13:56:46 adam Exp $
 
-DISTNAME=	cacti-0.8.8b
-PKGREVISION=	3
+DISTNAME=	cacti-0.8.8c
 CATEGORIES=	net
 MASTER_SITES=	http://www.cacti.net/downloads/
 
@@ -35,6 +34,7 @@ BUILD_DEFS+=		PKG_SYSCONFBASE
 PKG_SYSCONFSUBDIR?=	httpd
 EGDIR=			${PREFIX}/share/examples/cacti
 CONF_FILES+=		${EGDIR}/httpd-cacti.conf ${PKG_SYSCONFDIR}/httpd-cacti.conf
+CONF_FILES+=		${EGDIR}/config.php ${CACTIDIR}/include/config.php
 CACTIDIR=		${PREFIX}/share/cacti
 CACTI_LOGDIR?=		${CACTIDIR}/log
 CACTI_RRADIR?=		${CACTIDIR}/rra
@@ -95,8 +95,9 @@ post-extract:
 
 do-install:
 	${INSTALL_DATA} ${WRKDIR}/httpd-cacti.conf ${DESTDIR}${EGDIR}/httpd-cacti.conf
+	${INSTALL_DATA} ${WRKSRC}/include/config.php ${DESTDIR}${EGDIR}/config.php
 	${FIND} ${WRKSRC} -type f -name '*.orig' -exec ${RM} -f {} \;
-	cd ${WRKSRC} && ${PAX} -wr * ${DESTDIR}${CACTIDIR}
+	cd ${WRKSRC} && ${PAX} -rw -s ',\./include/config\.php,,' . ${DESTDIR}${CACTIDIR}
 	${INSTALL_SCRIPT} ${WRKDIR}/cacti-poller ${DESTDIR}${PREFIX}/bin
 
 .include "../../databases/rrdtool/buildlink3.mk"

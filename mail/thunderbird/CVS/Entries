@@ -1,11 +1,11 @@
 D/patches////
-/DESCR/1.2/Sat Apr  2 14:48:35 2005//
 D/files////
-/hacks.mk/1.5/Sat Dec 14 01:04:39 2013//
-/PLIST.lightning/1.21/Mon Jul 28 01:11:42 2014//
-/enigmail.mk/1.13/Mon Jul 28 01:11:42 2014//
-/options.mk/1.15/Sat Sep 13 01:08:45 2014//
-/PLIST.enigmail/1.14/Mon Dec  1 01:04:32 2014//
-/PLIST/1.56/Sat Feb 14 01:03:46 2015//
-/Makefile/1.146/Mon Mar  9 22:01:21 2015//
-/distinfo/1.155/Mon Mar  9 22:01:21 2015//
+/DESCR/1.2/Fri Mar 13 21:11:25 2015//
+/Makefile/1.146/Fri Mar 13 21:11:25 2015//
+/PLIST/1.56/Fri Mar 13 21:11:25 2015//
+/PLIST.enigmail/1.14/Fri Mar 13 21:11:25 2015//
+/PLIST.lightning/1.21/Fri Mar 13 21:11:25 2015//
+/distinfo/1.155/Fri Mar 13 21:11:25 2015//
+/enigmail.mk/1.13/Fri Mar 13 21:11:25 2015//
+/hacks.mk/1.5/Fri Mar 13 21:11:25 2015//
+/options.mk/1.15/Fri Mar 13 21:11:25 2015//

@@ -1,12 +1,12 @@
-/patch-ac/1.4/Fri Feb 17 01:07:08 2012//
-/patch-libkms_linux.c/1.1/Thu Feb 16 20:30:56 2012//
-/patch-ad/1.2/Mon Jul 21 01:12:31 2014//
-/patch-libkms_vmwgfx.c/1.2/Thu Oct  2 01:12:39 2014//
-/patch-intel_intel__bufmgr__gem.c/1.5/Sun Oct 26 10:20:10 2014//
-/patch-radeon_radeon__bo__gem.c/1.1/Sun Oct 26 10:20:10 2014//
-/patch-radeon_radeon__cs__gem.c/1.1/Sun Oct 26 10:20:10 2014//
-/patch-xf86drmMode.c/1.1/Sun Oct 26 10:20:10 2014//
-/patch-xf86drmMode.h/1.1/Sun Oct 26 10:20:10 2014//
-/patch-ab/1.7/Sun Jan  4 01:04:47 2015//
-/patch-include_drm_drm.h/1.3/Sun Jan  4 01:04:47 2015//
+/patch-ab/1.7/Fri Mar 13 21:13:05 2015//
+/patch-ac/1.4/Fri Mar 13 21:13:05 2015//
+/patch-ad/1.2/Fri Mar 13 21:13:05 2015//
+/patch-include_drm_drm.h/1.3/Fri Mar 13 21:13:05 2015//
+/patch-intel_intel__bufmgr__gem.c/1.5/Fri Mar 13 21:13:05 2015//
+/patch-libkms_linux.c/1.1/Fri Mar 13 21:13:05 2015//
+/patch-libkms_vmwgfx.c/1.2/Fri Mar 13 21:13:05 2015//
+/patch-radeon_radeon__bo__gem.c/1.1/Fri Mar 13 21:13:05 2015//
+/patch-radeon_radeon__cs__gem.c/1.1/Fri Mar 13 21:13:05 2015//
+/patch-xf86drmMode.c/1.1/Fri Mar 13 21:13:05 2015//
+/patch-xf86drmMode.h/1.1/Fri Mar 13 21:13:05 2015//
 D

@@ -1,7 +1,7 @@
 D/patches////
-/DESCR/1.2/Tue Aug  5 21:04:50 2003//
-/xsltproc-nonet.mk/1.1/Tue Oct 27 14:37:13 2009//
-/PLIST/1.40/Wed Apr 14 01:03:50 2010//
-/distinfo/1.55/Wed Nov 28 01:02:41 2012//
-/buildlink3.mk/1.19/Thu Jan  2 01:03:28 2014//
-/Makefile/1.98/Tue Dec 16 01:53:30 2014//
+/DESCR/1.2/Fri Mar 13 21:12:07 2015//
+/Makefile/1.98/Fri Mar 13 21:12:07 2015//
+/PLIST/1.40/Fri Mar 13 21:12:07 2015//
+/buildlink3.mk/1.19/Fri Mar 13 21:12:07 2015//
+/distinfo/1.55/Fri Mar 13 21:12:07 2015//
+/xsltproc-nonet.mk/1.1/Fri Mar 13 21:12:07 2015//

@@ -1,9 +1,9 @@
-/install.tmpl/1.2/Fri Aug 12 19:59:03 2005//
-/install_threads.tmpl/1.1/Fri Aug 12 19:59:03 2005//
-/deinstall.tmpl/1.3/Mon Feb 15 01:18:53 2010//
-/perllink.1/1.3/Mon Mar 22 01:05:39 2010//
-/cpan-DB_File-hints-netbsd.pl/1.1/Sat Sep 17 18:51:36 2011//
-/perllink.in/1.4/Mon Mar  5 01:01:46 2012//
-/Policy.sh/1.5/Thu Nov  8 01:02:04 2012//
-/cpan-DB_File-hints-openbsd.pl/1.1/Fri Jan 24 16:37:19 2014//
+/Policy.sh/1.5/Fri Mar 13 21:11:25 2015//
+/cpan-DB_File-hints-netbsd.pl/1.1/Fri Mar 13 21:11:25 2015//
+/cpan-DB_File-hints-openbsd.pl/1.1/Fri Mar 13 21:11:25 2015//
+/deinstall.tmpl/1.3/Fri Mar 13 21:11:25 2015//
+/install.tmpl/1.2/Fri Mar 13 21:11:25 2015//
+/install_threads.tmpl/1.1/Fri Mar 13 21:11:25 2015//
+/perllink.1/1.3/Fri Mar 13 21:11:25 2015//
+/perllink.in/1.4/Fri Mar 13 21:11:25 2015//
 D

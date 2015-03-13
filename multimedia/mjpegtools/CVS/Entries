@@ -1,10 +1,9 @@
 D/patches////
-/DESCR/1.2/Fri Feb 13 23:50:17 2004//
-/hacks.mk/1.4/Fri Feb 23 07:11:36 2007//
-/PLIST/1.13/Sun Jul  8 01:02:10 2012//
-/distinfo/1.26/Sun Jul  8 01:02:10 2012//
-/options.mk/1.6/Sun Jul  8 01:02:10 2012//
-/PLIST.Linux/1.3/Mon Dec 31 08:00:41 2012//
-/buildlink3.mk/1.23/Sun Jan 27 01:04:10 2013//
-/Makefile/1.56/Sun Feb 17 01:02:23 2013//
-D
+/DESCR/1.2/Fri Mar 13 21:11:27 2015//
+/Makefile/1.56/Fri Mar 13 21:11:27 2015//
+/PLIST/1.13/Fri Mar 13 21:11:27 2015//
+/PLIST.Linux/1.3/Fri Mar 13 21:11:27 2015//
+/buildlink3.mk/1.23/Fri Mar 13 21:11:27 2015//
+/distinfo/1.26/Fri Mar 13 21:11:27 2015//
+/hacks.mk/1.4/Fri Mar 13 21:11:27 2015//
+/options.mk/1.6/Fri Mar 13 21:11:27 2015//

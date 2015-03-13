@@ -1,7 +1,6 @@
 D/patches////
-/buildlink3.mk/1.8/Sat Mar 21 01:12:43 2009//
-/PLIST/1.6/Fri May 22 01:05:25 2009//
-/DESCR/1.1.1.1/Tue Oct 12 01:22:03 2010//
-/distinfo/1.11/Mon Dec 12 01:02:04 2011//
-/Makefile/1.22/Fri Oct 26 01:02:52 2012//
-D
+/DESCR/1.1.1.1/Fri Mar 13 21:12:05 2015//
+/Makefile/1.22/Fri Mar 13 21:12:05 2015//
+/PLIST/1.6/Fri Mar 13 21:12:05 2015//
+/buildlink3.mk/1.8/Fri Mar 13 21:12:05 2015//
+/distinfo/1.11/Fri Mar 13 21:12:05 2015//

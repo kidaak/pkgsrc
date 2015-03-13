@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.629 2015/02/21 19:45:34 jmcneill Exp $
+# $NetBSD: Makefile,v 1.631 2015/03/13 15:59:08 taca Exp $
 #
 
 COMMENT=	System utilities
@@ -278,6 +278,7 @@ SUBDIR+=	krusader
 SUBDIR+=	ksystemlog
 SUBDIR+=	kuser
 SUBDIR+=	lambd
+SUBDIR+=	lastfss
 SUBDIR+=	lavaps
 SUBDIR+=	libburn
 SUBDIR+=	libdevkit-gobject
@@ -444,6 +445,7 @@ SUBDIR+=	ruby-listen
 SUBDIR+=	ruby-notify
 SUBDIR+=	ruby-quota
 SUBDIR+=	ruby-rb-appscript
+SUBDIR+=	ruby-rb-inotify
 SUBDIR+=	safetynet
 SUBDIR+=	salt
 SUBDIR+=	salt-docs

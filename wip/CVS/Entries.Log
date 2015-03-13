@@ -243,6 +243,7 @@ A D/beryl-settings////
 A D/beryl-settings-bindings////
 A D/beryl-settings-simple////
 A D/bftpd////
+A D/bibletime////
 A D/bibtex2html////
 A D/bigreqsproto////
 A D/billardgl////
@@ -1868,6 +1869,7 @@ A D/mesa-dri////
 A D/mesure////
 A D/metacity-setup////
 A D/mftrace////
+A D/mg-cvs////
 A D/mhonarc////
 A D/micro_httpd////
 A D/midori////
@@ -3214,6 +3216,7 @@ A D/smbldap-tools////
 A D/smlnj-current////
 A D/smlnj-working////
 A D/smpeg2////
+A D/smtp-feed////
 A D/snes9x////
 A D/snownews////
 A D/socat////
@@ -3277,6 +3280,7 @@ A D/swi-prolog-lite////
 A D/swi-prolog-packages////
 A D/swift////
 A D/swig2////
+A D/sword////
 A D/sylpheed-gtk2////
 A D/sysjail////
 A D/syslog-ng////
@@ -4153,6 +4157,7 @@ R D/sysmon////
 R D/syslog-ng////
 R D/sysjail////
 R D/sylpheed-gtk2////
+R D/sword////
 R D/swig2////
 R D/swift////
 R D/swi-prolog-packages////
@@ -4216,6 +4221,7 @@ R D/socket++////
 R D/socat////
 R D/snownews////
 R D/snes9x////
+R D/smtp-feed////
 R D/smpeg2////
 R D/smlnj-working////
 R D/smlnj-current////
@@ -7187,6 +7193,7 @@ R D/bin86////
 R D/billardgl////
 R D/bigreqsproto////
 R D/bibtex2html////
+R D/bibletime////
 R D/bftpd////
 R D/beryl-settings-simple////
 R D/beryl-settings-bindings////

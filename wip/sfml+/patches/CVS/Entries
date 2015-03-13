@@ -1,12 +1,12 @@
-/patch-include_SFML_Config.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-include_SFML_Window_OpenGL.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-include_SFML_Window_WindowHandle.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Makefile/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Network_SelectorBase.cpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_System_Platform.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Window_Joystick.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Window_Linux_Joystick.cpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Window_Linux_Joystick.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Window_VideoModeSupport.hpp/1.1/Mon Feb 16 21:51:10 2015//
-/patch-src_SFML_Window_WindowImpl.cpp/1.1/Mon Feb 16 21:51:10 2015//
+/patch-include_SFML_Config.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-include_SFML_Window_OpenGL.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-include_SFML_Window_WindowHandle.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Makefile/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Network_SelectorBase.cpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_System_Platform.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Window_Joystick.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Window_Linux_Joystick.cpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Window_Linux_Joystick.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Window_VideoModeSupport.hpp/1.1/Fri Mar 13 21:12:40 2015//
+/patch-src_SFML_Window_WindowImpl.cpp/1.1/Fri Mar 13 21:12:40 2015//
 D

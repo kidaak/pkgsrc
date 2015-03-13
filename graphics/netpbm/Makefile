@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.200 2015/01/12 11:47:59 is Exp $
+# $NetBSD: Makefile,v 1.203 2015/03/12 12:35:42 tnn Exp $
 
 DISTNAME=	netpbm-10.68.02
 CATEGORIES=	graphics
@@ -25,6 +25,7 @@ USE_FEATURES=	snprintf
 INSTALL_TARGET=	install-dev install-run
 MAKE_ENV+=	INSTALL=${INSTALL:Q} STRIPFLAG=${_STRIPFLAG_INSTALL:Q} \
 		pkgdir=${STAGEDIR:Q} MACHINE=${MACHINE:Q}
+MAKE_FLAGS+=	PKGMANDIR=${PKGMANDIR:Q}
 MAKE_FILE=	GNUmakefile
 REPLACE_PERL+=	converter/pbm/pbmtox10bm
 REPLACE_PERL+=	editor/pnmflip
@@ -63,7 +64,7 @@ MAKE_FLAGS+=	NETWORKLD="-lsocket -lnsl"
 MAKE_FLAGS+=	NETWORKLD="-lsocket -lresolv"
 .endif
 
-INSTALLATION_DIRS=	${PKGMANDIR}/man1 share/netpbm
+INSTALLATION_DIRS=	${PKGMANDIR}/man1 ${PKGMANDIR}/man3 ${PKGMANDIR}/man5 share/netpbm
 
 post-extract:
 	cd ${WRKSRC} && ${CP} config.mk.in config.mk
@@ -80,9 +81,11 @@ post-extract:
 
 pre-install:
 	${RM} -fr ${STAGEDIR}
+	${MKDIR} -p ${STAGEDIR}/man/web
 
 post-install:
 	cd ${STAGEDIR} && 					\
+	${RM} -rf ${PKGMANDIR}/web && 				\
 	${RM} -rf man/web && 					\
 	${MKDIR} share &&					\
 	${MV} misc share/netpbm && 				\

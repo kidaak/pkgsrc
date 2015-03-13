@@ -1,10 +1,10 @@
-/DESCR/1.1/Wed May 15 06:58:50 2013//
-/MESSAGE.NetBSD/1.1/Wed May 15 06:58:50 2013//
-/TODO/1.1/Wed May 15 06:58:50 2013//
 D/files////
 D/patches////
-/MESSAGE/1.2/Mon May 20 03:53:40 2013//
-/PLIST/1.6/Wed Mar 12 01:05:09 2014//
-/buildlink3.mk/1.1/Sat Jul 26 20:27:47 2014//
-/Makefile/1.25/Wed Jan 21 01:04:34 2015//
-/distinfo/1.14/Fri Jan 30 01:03:28 2015//
+/DESCR/1.1/Fri Mar 13 21:12:04 2015//
+/MESSAGE/1.2/Fri Mar 13 21:12:04 2015//
+/MESSAGE.NetBSD/1.1/Fri Mar 13 21:12:04 2015//
+/Makefile/1.26/Fri Mar 13 21:27:26 2015//
+/PLIST/1.6/Fri Mar 13 21:12:04 2015//
+/TODO/1.1/Fri Mar 13 21:12:04 2015//
+/buildlink3.mk/1.1/Fri Mar 13 21:12:04 2015//
+/distinfo/1.15/Fri Mar 13 21:27:26 2015//
