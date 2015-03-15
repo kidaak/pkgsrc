@@ -1,11 +1,11 @@
-/patch-lib_ext_wocky_examples_connect.c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_tests_test-resolver_h/1.1/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_tests_wocky-connector-test.c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_tests_wocky-test-sasl-auth-server.c/1.2/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_wocky_wocky-heartbeat-source_c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_wocky_wocky-muc.c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-lib_ext_wocky_wocky_wocky-openssl.c/1.2/Fri Mar 13 21:10:55 2015//
-/patch-src_bytestream-socks5.c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-src_ft-manager.c/1.1/Fri Mar 13 21:10:55 2015//
-/patch-tests_twisted_test-resolver_h/1.1/Fri Mar 13 21:10:55 2015//
+/patch-lib_ext_wocky_examples_connect.c/1.1/Thu Feb 16 15:50:16 2012//
+/patch-lib_ext_wocky_tests_test-resolver_h/1.1/Wed May  9 03:57:45 2012//
+/patch-lib_ext_wocky_tests_wocky-connector-test.c/1.1/Sat Mar  2 18:19:10 2013//
+/patch-lib_ext_wocky_tests_wocky-test-sasl-auth-server.c/1.2/Fri Mar  7 01:22:44 2014//
+/patch-lib_ext_wocky_wocky_wocky-heartbeat-source_c/1.1/Mon May  7 18:54:44 2012//
+/patch-lib_ext_wocky_wocky_wocky-muc.c/1.1/Sat Mar  2 18:19:10 2013//
+/patch-lib_ext_wocky_wocky_wocky-openssl.c/1.2/Fri Feb 17 01:05:13 2012//
+/patch-src_bytestream-socks5.c/1.1/Thu Feb 16 15:50:16 2012//
+/patch-src_ft-manager.c/1.1/Thu Feb 16 15:50:16 2012//
+/patch-tests_twisted_test-resolver_h/1.1/Wed May  9 03:57:45 2012//
 D

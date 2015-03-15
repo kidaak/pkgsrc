@@ -1,17 +1,17 @@
 D/files////
 D/patches////
-/DEINSTALL/1.2/Fri Mar 13 21:11:25 2015//
-/DESCR/1.1.1.1/Fri Mar 13 21:11:25 2015//
-/MESSAGE/1.2/Fri Mar 13 21:11:25 2015//
-/Makefile/1.45/Fri Mar 13 21:11:25 2015//
-/Makefile.common/1.14/Fri Mar 13 21:11:25 2015//
-/PLIST/1.11/Fri Mar 13 21:11:25 2015//
-/PLIST.dsn/1.2/Fri Mar 13 21:11:25 2015//
-/PLIST.esmtp/1.4/Fri Mar 13 21:11:25 2015//
-/PLIST.fax/1.2/Fri Mar 13 21:11:25 2015//
-/PLIST.ldap/1.2/Fri Mar 13 21:11:25 2015//
-/PLIST.local/1.2/Fri Mar 13 21:11:25 2015//
-/PLIST.uucp/1.2/Fri Mar 13 21:11:25 2015//
-/distinfo/1.19/Fri Mar 13 21:11:25 2015//
-/options.mk/1.11/Fri Mar 13 21:11:25 2015//
-/pkginstall.mk/1.8/Fri Mar 13 21:11:25 2015//
+/DEINSTALL/1.2/Tue Oct 16 01:13:14 2007//
+/DESCR/1.1.1.1/Fri Apr 28 18:10:21 2006//
+/MESSAGE/1.2/Sun Aug 12 01:24:50 2007//
+/Makefile/1.45/Fri May 30 01:04:31 2014//
+/Makefile.common/1.14/Sun Jun 10 01:01:46 2012//
+/PLIST/1.11/Wed Mar 12 01:04:29 2014//
+/PLIST.dsn/1.2/Mon Jun 15 01:08:19 2009//
+/PLIST.esmtp/1.4/Wed Mar 12 01:04:29 2014//
+/PLIST.fax/1.2/Mon Jun 15 01:08:19 2009//
+/PLIST.ldap/1.2/Wed Mar 12 01:04:29 2014//
+/PLIST.local/1.2/Mon Jun 15 01:08:19 2009//
+/PLIST.uucp/1.2/Mon Jun 15 01:08:19 2009//
+/distinfo/1.19/Tue Apr 30 01:03:00 2013//
+/options.mk/1.11/Sun Jun 10 01:01:46 2012//
+/pkginstall.mk/1.8/Sun Jun 10 01:01:46 2012//

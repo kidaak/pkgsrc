@@ -1,10 +1,10 @@
 D/patches////
-/DESCR/1.2/Fri Mar 13 21:11:16 2015//
-/Makefile/1.34/Fri Mar 13 21:25:13 2015//
-/PLIST/1.12/Fri Mar 13 21:11:16 2015//
-/PLIST.Darwin/1.1/Fri Mar 13 21:11:16 2015//
-/PLIST.DragonFly/1.1/Fri Mar 13 21:11:16 2015//
-/PLIST.FreeBSD/1.1/Fri Mar 13 21:11:16 2015//
-/PLIST.Linux/1.1/Fri Mar 13 21:11:16 2015//
-/buildlink3.mk/1.13/Fri Mar 13 21:11:16 2015//
-/distinfo/1.15/Fri Mar 13 21:11:16 2015//
+/DESCR/1.2/Tue Sep 21 13:37:04 2004//
+/Makefile/1.34/Sun Mar 15 12:15:34 2015//
+/PLIST/1.12/Sun Jan 31 01:01:36 2010//
+/PLIST.Darwin/1.1/Fri Jan 17 08:13:29 2014//
+/PLIST.DragonFly/1.1/Wed Apr 12 16:57:04 2006//
+/PLIST.FreeBSD/1.1/Wed Apr 12 16:57:04 2006//
+/PLIST.Linux/1.1/Sat Jul 29 06:59:37 2006//
+/buildlink3.mk/1.13/Sun Feb  2 01:36:52 2014//
+/distinfo/1.15/Fri Jun 27 01:06:05 2014//

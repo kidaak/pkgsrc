@@ -326,6 +326,7 @@ A D/cgdb////
 A D/cgic////
 A D/cgit////
 A D/cgoban2////
+A D/checkstyle////
 A D/chemical-mime-data////
 A D/cherokee////
 A D/chicken-current////
@@ -1869,7 +1870,6 @@ A D/mesa-dri////
 A D/mesure////
 A D/metacity-setup////
 A D/mftrace////
-A D/mg-cvs////
 A D/mhonarc////
 A D/micro_httpd////
 A D/midori////
@@ -4787,6 +4787,7 @@ R D/postgresql74-client////
 R D/postgresql74////
 R D/postgresql73-postgis////
 R D/postgresql-uniqueidentifier////
+R D/postgresql-postgis2////
 R D/postgresql-postgis////
 R D/postgresql-autodoc////
 R D/postgis74////
@@ -4865,6 +4866,7 @@ R D/php4-mssql////
 R D/php4-exif////
 R D/php4-dbx////
 R D/php4////
+R D/php-xcache////
 R D/php-uploadprogress////
 R D/php-suhosin////
 R D/php-oauth////

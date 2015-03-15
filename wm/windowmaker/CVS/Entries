@@ -1,8 +1,8 @@
 D/patches////
-/DESCR/1.1/Fri Mar 13 21:12:55 2015//
-/MESSAGE/1.2/Fri Mar 13 21:12:55 2015//
-/Makefile/1.111/Fri Mar 13 21:12:55 2015//
-/PLIST/1.20/Fri Mar 13 21:12:55 2015//
-/buildlink3.mk/1.35/Fri Mar 13 21:12:55 2015//
-/distinfo/1.39/Fri Mar 13 21:12:55 2015//
-/hacks.mk/1.1/Fri Mar 13 21:12:55 2015//
+/DESCR/1.1/Wed Oct 31 20:59:30 2001//
+/MESSAGE/1.2/Tue Sep 24 12:30:41 2002//
+/Makefile/1.111/Sun Jan 18 01:03:44 2015//
+/PLIST/1.20/Wed Oct  8 01:06:24 2014//
+/buildlink3.mk/1.35/Sun Jun  1 01:07:41 2014//
+/distinfo/1.39/Tue Feb  3 01:03:44 2015//
+/hacks.mk/1.1/Thu Jun 21 00:58:04 2007//

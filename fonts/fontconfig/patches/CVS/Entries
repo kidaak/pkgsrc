@@ -1,11 +1,11 @@
-/patch-aa/1.18/Fri Mar 13 21:11:14 2015//
-/patch-ac/1.13/Fri Mar 13 21:11:14 2015//
-/patch-af/1.2/Fri Mar 13 21:11:14 2015//
-/patch-configure/1.1/Fri Mar 13 21:11:14 2015//
-/patch-scandir.c/1.1/Fri Mar 13 21:11:14 2015//
-/patch-src_fccharset.c/1.1/Fri Mar 13 21:11:14 2015//
-/patch-src_fcftint.h/1.1/Fri Mar 13 21:11:14 2015//
-/patch-src_fcint.h/1.1/Fri Mar 13 21:11:14 2015//
-/patch-src_fcstat.c/1.4/Fri Mar 13 21:11:14 2015//
-/patch-test_test-migration.c/1.4/Fri Mar 13 21:11:14 2015//
+/patch-aa/1.18/Fri Oct 18 01:04:24 2013//
+/patch-ac/1.13/Fri Oct 18 01:04:25 2013//
+/patch-af/1.2/Tue May 21 01:40:41 2013//
+/patch-configure/1.1/Tue Jul 15 14:48:34 2014//
+/patch-scandir.c/1.1/Tue Jul 15 14:48:34 2014//
+/patch-src_fccharset.c/1.1/Tue Jul 15 14:48:34 2014//
+/patch-src_fcftint.h/1.1/Tue Jul 15 14:48:34 2014//
+/patch-src_fcint.h/1.1/Tue Jul 15 14:48:34 2014//
+/patch-src_fcstat.c/1.4/Wed Jul 16 01:03:31 2014//
+/patch-test_test-migration.c/1.4/Tue Jul 15 14:48:34 2014//
 D

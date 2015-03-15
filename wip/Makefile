@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.6110 2015/03/12 21:28:50 tnn2 Exp $
+# $Id: Makefile,v 1.6112 2015/03/14 18:58:45 othyro Exp $
 
 COMMENT=	WIP pkgsrc packages
 
@@ -2332,7 +2332,6 @@ SUBDIR+=	php-rrd
 SUBDIR+=	php-ssh2
 SUBDIR+=	php-tclink
 SUBDIR+=	php-tidy
-SUBDIR+=	php-xcache
 SUBDIR+=	picasm
 SUBDIR+=	picocom
 SUBDIR+=	picosat
@@ -2394,7 +2393,6 @@ SUBDIR+=	popup-el-current
 SUBDIR+=	portscout
 SUBDIR+=	postal2-mpdemo-bin
 SUBDIR+=	postfix-logwatch
-SUBDIR+=	postgresql-postgis2
 SUBDIR+=	postoffice
 SUBDIR+=	postr
 SUBDIR+=	povray

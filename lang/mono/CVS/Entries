@@ -1,10 +1,10 @@
 D/patches////
-/DESCR/1.2/Fri Mar 13 21:11:24 2015//
-/MESSAGE/1.6/Fri Mar 13 21:11:24 2015//
-/Makefile/1.153/Fri Mar 13 21:11:24 2015//
-/PLIST.Linux/1.3/Fri Mar 13 21:11:24 2015//
-/PLIST.SunOS-i386/1.1/Fri Mar 13 21:11:24 2015//
-/PLIST.common/1.21/Fri Mar 13 21:11:24 2015//
-/buildlink3.mk/1.50/Fri Mar 13 21:11:24 2015//
-/distinfo/1.98/Fri Mar 13 21:11:24 2015//
-/options.mk/1.3/Fri Mar 13 21:11:24 2015//
+/DESCR/1.2/Tue Jun 18 01:07:04 2013//
+/MESSAGE/1.6/Tue Apr 22 01:10:04 2008//
+/Makefile/1.153/Mon Dec  1 01:04:21 2014//
+/PLIST.Linux/1.3/Wed Mar 12 01:04:24 2014//
+/PLIST.SunOS-i386/1.1/Fri Sep 13 20:47:55 2013//
+/PLIST.common/1.21/Mon Dec  1 01:04:21 2014//
+/buildlink3.mk/1.50/Wed Oct  8 01:04:09 2014//
+/distinfo/1.98/Mon Dec  1 01:04:21 2014//
+/options.mk/1.3/Sun Oct 17 01:01:18 2010//

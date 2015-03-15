@@ -3961,9 +3961,6 @@ D/ruby-kakasi////
 D/syncthing////
 D/syncthing-gtk////
 D/unicorn5hc////
-/Makefile/1.6110/Fri Mar 13 21:20:25 2015//
-/TODO/1.1167/Fri Mar 13 21:20:25 2015//
-/import-package.sh/1.12/Fri Mar 13 21:12:20 2015//
 D/go-backoff////
 D/go-fsnotify////
 D/libepoxy////
@@ -3971,3 +3968,6 @@ D/py-vdirsyncer-git////
 D/smtpfeed////
 D/syncthing-inotify////
 D/mg-cvs////
+/Makefile/1.6112/Sun Mar 15 12:37:38 2015//
+/TODO/1.1167/Sun Mar 15 12:15:53 2015//
+/import-package.sh/1.12/Mon Feb 16 21:51:04 2015//

@@ -1,13 +1,13 @@
-/patch-ac/1.6/Fri Mar 13 21:11:27 2015//
-/patch-aw/1.5/Fri Mar 13 21:11:27 2015//
-/patch-ax/1.4/Fri Mar 13 21:11:27 2015//
-/patch-ba/1.4/Fri Mar 13 21:11:27 2015//
-/patch-encode_encode_lavc.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-export_export_ffmpeg.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-export_ffmpeg_cfg.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-filter_subtitler_load_font.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-import_decode_lavc.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-import_import_ffmpeg.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-import_probe_ffmpeg.c/1.1/Fri Mar 13 21:11:27 2015//
-/patch-libtc_tcavcodec.h/1.1/Fri Mar 13 21:11:27 2015//
+/patch-ac/1.6/Thu Oct 11 01:03:06 2012//
+/patch-aw/1.5/Wed Jul  8 01:06:07 2009//
+/patch-ax/1.4/Wed Oct 10 13:37:25 2012//
+/patch-ba/1.4/Wed Oct 10 13:37:25 2012//
+/patch-encode_encode_lavc.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-export_export_ffmpeg.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-export_ffmpeg_cfg.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-filter_subtitler_load_font.c/1.1/Fri Dec 13 20:54:03 2013//
+/patch-import_decode_lavc.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-import_import_ffmpeg.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-import_probe_ffmpeg.c/1.1/Sat Nov 17 21:46:44 2012//
+/patch-libtc_tcavcodec.h/1.1/Sat Nov 17 21:46:44 2012//
 D

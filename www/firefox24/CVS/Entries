@@ -1,10 +1,10 @@
 D/files////
 D/patches////
-/DESCR/1.1/Fri Mar 13 21:12:59 2015//
-/Makefile/1.28/Fri Mar 13 21:12:59 2015//
-/PLIST/1.4/Fri Mar 13 21:12:59 2015//
-/distinfo/1.14/Fri Mar 13 21:12:59 2015//
-/hacks.mk/1.1/Fri Mar 13 21:12:59 2015//
-/mozilla-common.mk/1.10/Fri Mar 13 21:12:59 2015//
-/options.mk/1.3/Fri Mar 13 21:12:59 2015//
-/xpi.mk/1.1/Fri Mar 13 21:12:59 2015//
+/DESCR/1.1/Sun Nov  3 04:51:59 2013//
+/Makefile/1.28/Sun Feb 22 13:56:52 2015//
+/PLIST/1.4/Fri Dec  6 01:05:02 2013//
+/distinfo/1.14/Fri Dec  5 01:06:42 2014//
+/hacks.mk/1.1/Sun Nov  3 04:51:59 2013//
+/mozilla-common.mk/1.10/Sun Dec  7 01:18:16 2014//
+/options.mk/1.3/Mon Nov 25 01:06:56 2013//
+/xpi.mk/1.1/Sun Nov  3 04:51:59 2013//

@@ -1,4 +1,4 @@
-# $NetBSD: Makefile,v 1.2067 2015/03/13 13:38:55 taca Exp $
+# $NetBSD: Makefile,v 1.2069 2015/03/15 00:23:55 rodent Exp $
 #
 
 COMMENT=	Development utilities
@@ -1524,6 +1524,7 @@ SUBDIR+=	php-shmop
 SUBDIR+=	php-sysvmsg
 SUBDIR+=	php-sysvsem
 SUBDIR+=	php-sysvshm
+SUBDIR+=	php-xcache
 SUBDIR+=	php-xdebug
 SUBDIR+=	physfs
 SUBDIR+=	picp
@@ -1645,6 +1646,7 @@ SUBDIR+=	py-pip
 SUBDIR+=	py-polib
 SUBDIR+=	py-pqueue
 SUBDIR+=	py-pretend
+SUBDIR+=	py-proteus
 SUBDIR+=	py-protobuf
 SUBDIR+=	py-py
 SUBDIR+=	py-py2app

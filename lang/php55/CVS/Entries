@@ -1,9 +1,9 @@
 D/patches////
-/DESCR/1.2/Fri Mar 13 21:11:25 2015//
-/MESSAGE/1.1/Fri Mar 13 21:11:25 2015//
-/Makefile/1.19/Fri Mar 13 21:11:25 2015//
-/Makefile.common/1.2/Fri Mar 13 21:11:25 2015//
-/Makefile.php/1.4/Fri Mar 13 21:11:25 2015//
-/PLIST/1.5/Fri Mar 13 21:11:25 2015//
-/buildlink3.mk/1.1/Fri Mar 13 21:11:25 2015//
-/distinfo/1.36/Fri Mar 13 21:11:25 2015//
+/DESCR/1.2/Fri Nov  8 01:03:26 2013//
+/MESSAGE/1.1/Mon Jul 29 16:41:02 2013//
+/Makefile/1.19/Sat Feb 21 20:25:38 2015//
+/Makefile.common/1.2/Sat Oct 26 01:04:53 2013//
+/Makefile.php/1.4/Sat Jun 14 01:05:19 2014//
+/PLIST/1.5/Sat Feb 21 20:25:38 2015//
+/buildlink3.mk/1.1/Mon Jul 29 16:41:02 2013//
+/distinfo/1.36/Mon Mar  9 22:01:19 2015//

@@ -1,8 +1,8 @@
-/NetBSD.mk/1.1.1.1/Fri Mar 13 21:12:04 2015//
-/elf_machdep.h/1.1/Fri Mar 13 21:12:04 2015//
-/hvm-nbsd/1.1.1.1/Fri Mar 13 21:12:04 2015//
-/int_types.h/1.1/Fri Mar 13 21:12:04 2015//
-/qemu-ifup-nbsd/1.1.1.1/Fri Mar 13 21:12:04 2015//
-/xenio.h/1.2/Fri Mar 13 21:12:04 2015//
-/xenio3.h/1.1.1.1/Fri Mar 13 21:12:04 2015//
+/NetBSD.mk/1.1.1.1/Thu Jun 14 19:42:12 2007//
+/elf_machdep.h/1.1/Sun Dec  2 18:55:31 2007//
+/hvm-nbsd/1.1.1.1/Thu Jun 14 19:42:12 2007//
+/int_types.h/1.1/Sun Dec  2 18:55:31 2007//
+/qemu-ifup-nbsd/1.1.1.1/Thu Jun 14 19:42:12 2007//
+/xenio.h/1.2/Mon Feb 18 01:15:44 2008//
+/xenio3.h/1.1.1.1/Thu Jun 14 19:42:12 2007//
 D
