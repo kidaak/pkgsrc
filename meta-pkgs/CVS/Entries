@@ -33,7 +33,6 @@ D/gnome-mobile////
 D/pulseaudio-tools////
 D/desktop-gnome////
 D/kde4////
-D/php53-extensions////
 D/gimp-docs////
 D/modular-xorg////
 D/suse121////
@@ -48,4 +47,4 @@ D/suse131////
 D/modular-xorg-utils////
 D/ruby-shoulda////
 D/php56-extensions////
-/Makefile/1.77/Sat Feb 21 20:25:57 2015//
+/Makefile/1.78/Mon Mar 16 17:58:29 2015//

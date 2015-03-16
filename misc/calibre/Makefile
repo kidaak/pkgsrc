@@ -1,7 +1,6 @@
-# $NetBSD: Makefile,v 1.93 2015/03/09 09:02:20 wiz Exp $
+# $NetBSD: Makefile,v 1.95 2015/03/15 21:30:20 wiz Exp $
 
-DISTNAME=	calibre-2.20.0
-PKGREVISION=	1
+DISTNAME=	calibre-2.21.0
 CATEGORIES=	misc
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=calibre/}
 EXTRACT_SUFX=	.tar.xz
@@ -70,6 +69,8 @@ SUBST_SED.path=		-e "s,\#! */usr/bin/env *[Pp]ython[0-9.]*,\#!${PYTHONBIN},"
 SUBST_MESSAGE.path=	Fixing path to python.
 SUBST_STAGE.path=	post-patch
 SUBST_FILES.path=	${FIX_PYTHON_PATHS}
+
+REPLACE_BASH+=		resources/calibre-portable.sh
 
 # These ones are for replacing python[0-9*] with PYTHONBIN
 REPLACE_PYTHON+=	recipes/animal_politico.recipe

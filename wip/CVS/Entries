@@ -2131,7 +2131,6 @@ D/php-rrd////
 D/php-ssh2////
 D/php-tclink////
 D/php-tidy////
-D/php-xcache////
 D/picasm////
 D/picocom////
 D/picosat////
@@ -3700,7 +3699,6 @@ D/octave////
 D/osmo-sdr-git////
 D/peercoin////
 D/portscout////
-D/postgresql-postgis2////
 D/primecoin////
 D/py-applpy////
 D/py-attic////
@@ -3968,6 +3966,7 @@ D/py-vdirsyncer-git////
 D/smtpfeed////
 D/syncthing-inotify////
 D/mg-cvs////
-/Makefile/1.6112/Sun Mar 15 12:37:38 2015//
-/TODO/1.1167/Sun Mar 15 12:15:53 2015//
 /import-package.sh/1.12/Mon Feb 16 21:51:04 2015//
+D/checkstyle////
+/Makefile/1.6113/Mon Mar 16 18:12:04 2015//
+/TODO/1.1170/Mon Mar 16 18:12:06 2015//

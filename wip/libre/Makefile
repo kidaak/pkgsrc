@@ -1,6 +1,6 @@
 # $NetBSD$
 
-DISTNAME=	re-0.4.10
+DISTNAME=	re-0.4.11
 PKGNAME=	lib${DISTNAME}
 CATEGORIES=	net
 MASTER_SITES=	http://www.creytiv.com/pub/

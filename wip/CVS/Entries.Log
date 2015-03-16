@@ -227,6 +227,7 @@ A D/bacula////
 A D/bacula-docs////
 A D/balance////
 A D/balsa2////
+A D/bareos////
 A D/barnyard////
 A D/bastille////
 A D/bc////
@@ -326,7 +327,6 @@ A D/cgdb////
 A D/cgic////
 A D/cgit////
 A D/cgoban2////
-A D/checkstyle////
 A D/chemical-mime-data////
 A D/cherokee////
 A D/chicken-current////
@@ -473,6 +473,7 @@ A D/dkim-milter////
 A D/dmenu////
 A D/dmidecode////
 A D/dnscheck-engine////
+A D/dnscrypt-proxy////
 A D/dnsmasq////
 A D/dnstop////
 A D/docbook-simple////
@@ -2573,6 +2574,7 @@ A D/php-mode////
 A D/php-oauth////
 A D/php-suhosin////
 A D/php-uploadprogress////
+A D/php-xcache////
 A D/php4////
 A D/php4-dbx////
 A D/php4-exif////
@@ -2651,6 +2653,7 @@ A D/postgis////
 A D/postgis74////
 A D/postgresql-autodoc////
 A D/postgresql-postgis////
+A D/postgresql-postgis2////
 A D/postgresql-uniqueidentifier////
 A D/postgresql73-postgis////
 A D/postgresql74////
@@ -4221,6 +4224,7 @@ R D/socket++////
 R D/socat////
 R D/snownews////
 R D/snes9x////
+R D/smtpfeed////
 R D/smtp-feed////
 R D/smpeg2////
 R D/smlnj-working////
@@ -4407,6 +4411,7 @@ R D/rlab////
 R D/ripmime////
 R D/ricty-ttf////
 R D/rgb////
+R D/retroarch////
 R D/resourceproto////
 R D/resourceext////
 R D/residual-nightly////

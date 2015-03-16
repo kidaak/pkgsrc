@@ -158,7 +158,6 @@ D/pear-HTML_Common////
 D/pear-HTML_Select////
 D/pear-HTTP_Request////
 D/php-curl////
-D/php-eaccelerator////
 D/privoxy////
 D/py-HTMLgen////
 D/py-clearsilver////
@@ -801,4 +800,4 @@ D/ruby-jekyll-gist////
 D/ruby-jekyll-paginate////
 D/ruby-jekyll-sass-converter////
 D/ruby-jekyll-watch////
-/Makefile/1.1094/Sun Mar 15 12:16:07 2015//
+/Makefile/1.1095/Mon Mar 16 17:59:06 2015//

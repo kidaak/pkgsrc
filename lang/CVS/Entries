@@ -142,7 +142,6 @@ D/cparser////
 D/vala////
 D/polyml////
 D/python26////
-D/php5-perl////
 D/LuaJIT////
 D/gcc44////
 D/openjdk7////
@@ -154,7 +153,6 @@ D/rcfunge////
 D/scala////
 D/squeak-vm////
 D/likepython////
-D/php53////
 D/racket////
 D/racket-textual////
 D/py-cxfreeze////
@@ -232,4 +230,4 @@ D/libLLVM////
 D/libLLVM34////
 D/ruby22////
 D/ruby22-base////
-/Makefile/1.403/Mon Mar  9 22:01:12 2015//
+/Makefile/1.405/Mon Mar 16 17:58:05 2015//

@@ -85,7 +85,6 @@ D/php-pdo_mysql////
 D/php-pdo_pgsql////
 D/php-pdo_sqlite////
 D/php-pgsql////
-D/php-sqlite////
 D/phpldapadmin////
 D/phpmyadmin////
 D/phppgadmin////
@@ -162,7 +161,6 @@ D/p5-Class-DBI-Pg////
 D/pear-MDB2////
 D/pear-MDB2_Driver_mysql////
 D/pear-MDB2_Driver_pgsql////
-D/pear-MDB2_Driver_sqlite////
 D/sqlitebrowser////
 D/p5-CDB_File////
 D/gramps3////
@@ -492,4 +490,4 @@ D/py-cassandra-driver////
 D/libdbh2////
 D/ruby-arel30////
 D/lmdb////
-/Makefile/1.482/Mon Mar  9 22:00:26 2015//
+/Makefile/1.483/Mon Mar 16 17:57:20 2015//
