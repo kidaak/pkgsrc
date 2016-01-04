@@ -2,26 +2,7 @@
 bin/BitchX
 bin/BitchX-${PKGVERSION}
 bin/scr-bx
-lib/plugins/BitchX.hints
-lib/plugins/acro.so
-lib/plugins/aim.so
-lib/plugins/arcfour.so
-lib/plugins/autobot.so
-lib/plugins/autocycle.so
-lib/plugins/blowfish.so
-lib/plugins/cavlink.so
-lib/plugins/encrypt.so
-lib/plugins/fserv.so
-lib/plugins/hint.so
-lib/plugins/identd.so
-lib/plugins/nap.so
-lib/plugins/pkga.so
-lib/plugins/possum.so
-lib/plugins/qbx.so
-lib/plugins/qmail.so
-lib/plugins/wavplay.so
-man/man1/BitchX.1
-share/bx/BitchX.doc
+man/man1/BitchX.1.bz2
 share/bx/BitchX.help
 share/bx/BitchX.ircnames
 share/bx/BitchX.kick
@@ -930,6 +911,7 @@ share/bx/help/8_Scripts/uping.bz2
 share/bx/help/8_Scripts/wallopstat.bz2
 share/bx/help/8_Scripts/webster.bz2
 share/bx/help/8_Scripts/window.bz2
+share/bx/help/README_FIRST.bz2
 share/bx/script/SCRIPTS
 share/bx/script/actplug.gmz
 share/bx/script/auto_resume
@@ -980,3 +962,4 @@ share/bx/translation/SWISS.bz2
 share/bx/translation/UNITED_KINGDOM.bz2
 share/bx/translation/UNITED_KINGDOM_COM.bz2
 share/bx/wserv
+@pkgdir share/bx/plugins
